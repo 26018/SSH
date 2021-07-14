@@ -1,0 +1,1667 @@
+1．	【<s:iterator>】
+
+2．	【name】
+
+3．	【责任链模式】
+
+4．	【StrutsPrepareAndExecuteFilter】
+
+5．	【filter-mapping】
+
+6．	【持久】
+
+7．	【FilterDispatcher】
+
+8．	【查询缓存】
+
+9．	【autowire】
+
+10．	【表达式】【根对象】【上下文环境】
+
+11．	【StrutsPrepareAndExecuteFilter】
+
+12．	【prototype】
+
+13．	【apps】
+
+14．	【flush()】
+
+15．	【<constant>】
+
+16．	【编程式】
+
+17．	【@Constroller】
+
+18．	【一对一】
+
+19．	【BeanFactory】
+
+20．	【<s:submit>】
+
+21．	【普通标签】【UI标签】
+
+22．	【构造器实例化】
+
+23．	【JdbcTemplate】
+
+24．	【<s:debug>】
+
+25．	【type】
+
+26．	【TransactionDefinition】
+
+27．	【as】
+
+28．	【<s:textarea>】
+
+29．	【TransactionDefinition】
+
+30．	【web.xml】
+
+31．	【xhtml】
+
+32．	【<s:form>】
+
+33．	【<s:checkboxlist>】
+
+34．	【获取前台文本的值】
+
+35．	【ModelDriven】
+
+36．	【struts.xml】
+
+37．	【脱管】
+
+38．	【lazy-init】
+
+39．	【AbstractIntercepter】
+
+40．	【WebWork】
+
+41．	【轻量级】【IOC】
+
+42．	【拦截器栈】
+
+43．	【<s:include>】
+
+44．	【<s:debug>】
+
+45．	【“s”】
+
+46．	【method】
+
+47．	【<s:property>】
+
+48．	【singleton】
+
+49．	【<s:select>】
+
+50．	【update()】
+
+51．	【cascade】
+
+52．	【Restrictions】
+
+53．	【execute()】
+
+54．	【HQL】
+
+55．	【<s:hidden>】
+
+56．	【status】
+
+57．	【Properties】
+
+58．	【dispatcher】
+
+59．	【class】
+
+60．	【序列化】
+
+61．	【瞬时】【持久】
+
+62．	【@Repository】
+
+63．	【<s:property>】
+
+64．	【singleton】
+
+65．	【UPGRADE_NOWAIT】
+
+66．	【用于一次性创建多个复选框】
+
+67．	【字段驱动（属性驱动）】【模型驱动】
+
+68．	【<aop:config>】
+
+69．	【构造方法】
+
+70．	【<s:select>】
+
+71．	【package】
+
+72．	【@Service】
+
+73．	【<s:file>】
+
+74．	【13】
+
+75．	【<beans>】
+
+76．	【<s:radio>】
+
+77．	【SUCCESS】
+
+78．	【<session-factory>】
+
+79．	【Restrictions.le】
+
+80．	【value】
+
+81．	【<s:password>】
+
+82．	【Map】
+
+83．	【JDK动态代理】
+
+84．	【false】
+
+85．	【refresh()】
+
+86．	【AOP】
+
+87．	【<s:checkbox>】
+
+88．	【inverse】
+
+89．	【对象图导航语言（Object-Graph Navigation Language）】
+
+90．	【<s:reset>】
+
+91．	【根对象（Root Object）】
+
+92．	【@Autowired】
+
+93．	【<interceptor>】
+
+94．	【Session】
+
+95．	【Target】
+
+96．	【<s:param>】
+
+97．	【Interceptor】
+
+98．	【post】
+
+99．	【default.properties】
+
+100．	【环绕通知】
+
+101．	【设值注入】
+
+102．	【chain】
+
+103．	【<default-interceptor-ref>】
+
+104．	【scope】
+
+105．	【1】
+
+106．	【Action】【拦截器】
+
+107．	【null】
+
+108．	【false】
+
+109．	【<include>】
+
+110．	【UI】
+
+111．	【Query】
+
+112．	【一】
+
+113．	【瞬时】
+
+114．	【public】
+
+115．	【拦截器】
+
+116．	【<s:iterator>】
+
+117．	【clear()】
+
+118．	【<result>】
+
+119．	【<s:optgroup>】
+
+120．	【Configuration】
+
+121．	【AOP】
+
+122．	【<property>】
+
+123．	【<constructor-arg>】
+
+124．	【<s:textarea>】
+
+125．	【隔离性】
+
+126．	【脱管】
+
+127．	【权限控制、性能监控】
+
+128．	【Transaction】
+
+129．	【Spring AOP】
+
+130．	【UIBean】
+
+131．	【<s:debug>】
+
+132．	【lib】
+
+133．	【模型驱动】
+
+134．	正确答案：(1)瞬时状态 (2)脱管状态 (3)持久状态
+
+135．	正确答案：如果Action实例的getActionError()方法返回不为null","则该标签负责输出该方法返回的系列错误。
+
+136．	正确答案：修改如下：
+
+（1）在DAO层中不再使用HibernateTemplate","而是改为使用HibernateDaoSupport。
+
+（2）创建c3p0-db.properties文件","将链接数据库的基本4项编写在c3p0-db.properties文件中。
+
+（3）删除hibernate.cfg.xml配置文件","将hibernate.cfg.xml文件中的内容配置在applicationContext.xml文件中。
+
+137．	正确答案：(1)application/x-www-form-urlencoded
+
+(2)multipart/form-data
+
+(3)text/plain
+
+138．	正确答案：Struts2框架加载常量的顺序如下：
+
+（1）default.properties
+
+（2）struts-default.xml
+
+（3）struts-plugin.xml
+
+（4）struts.xml
+
+（5）struts.properties
+
+（6）web.xml
+
+139．	正确答案：(1) ActionContext类
+
+(2) ServletActionContext静态类
+
+(3) 接口注入
+
+140．	正确答案：(1)Configuration
+
+(2)SessionFactory
+
+(3)Session
+
+(4)Transaction
+
+(5)Query
+
+141．	正确答案：<action>元素中的属性共有4个","具体如下：
+
+ 1）name：标识Action","指定了Action所处理的请求的URL。
+
+ 2）class：指定Action对应对应的实现类。
+
+ 3）method：指定请求Action时调用的方法。
+
+ 4）converter：指定类型转换器的类。
+
+142．	正确答案：Struts2 默认提供了4种主题","分别为simple、xhtml、css_xhtml和Ajax。
+
+ 1）simple 主题：这是最简单的主题","使用该主题时","每个UI标签只生成最基本的HTML元素","没有任何附加功能。
+
+ 2）xhtml 主题：这是Struts2 的默认主题","它对simple主题进行了扩展","提供了布局功能、Label显示名称、以及与验证框架和国际化框架的集成。
+
+ 3）css_xhtml ：该主题是对xhtml的扩展","在xhtml的基础之上添加对CSS的支持和控制。
+
+ 4）Ajax ：继承自xhtml","提供Ajax支持。
+
+143．	正确答案：一个事务在执行过程中","既可以访问其他事务成功提交的新插入的数据","又可以访问成功修改的数据。读取数据的事务允许其他事务继续访问该行数据","但是未提交的写事务将会禁止其他事务访问该行。此隔离级别可有效防止脏读。
+
+144．	正确答案：(1) 原子性(2)一致性(3)隔离性(4)持久性
+
+145．	正确答案：Struts2拦截器的实现原理与Servlet过滤器的实现原理类似","它以链式执行","对真正要执行的方法（execute()）进行拦截。首先执行Action配置的拦截器","在Action和Result执行之后","拦截器会再次执行（与先前调用顺序相反）","在此链式执行的过程中","每一个拦截器都可以直接返回","从而终止余下的拦截器、Action及Result的执行。
+
+146．	正确答案：数据库中多表之间存在着三种关系","分别为多对多、一对多和一对一关系。
+
+147．	正确答案：import com.opensymphony.xwork2.ActionSupport;
+
+public class LoginAction extends ActionSupport{
+
+@Override
+
+public String execute() throws Exception {
+
+return super.execute();
+
+}
+
+}
+
+148．	正确答案：JDBC虽然具有功能强大、应用灵活、使用简单等优点","但是在每次数据库操作中","都有很多重复的工作要做","这使得代码的重用性很低。另外","如果数据库的用户名和密码发生变动","在实际项目中如果涉及到整个程序","其改动量是相当大的。
+
+Spring框架针对JDBC访问数据库存在的重复劳动问题","对JDBC进行了必要的封装处理","使得编程人员对其并不关心的重复工作自动完成。这就大大减轻了编程的工作量","提高了工作效率。在Spring框架中","如果需要修改数据库用户名和密码","只需要修改一处即可","这样带来的好处也是显而易见的。此外","Spring框架对事务的处理、异常的处理都可以进行统一管理。
+
+149．	正确答案：(1)singleton(2)prototype(3)request(4)session(5)globalsession
+
+150．	正确答案：Joinpoint表示连接点","是指那些被拦截到的点","在Spring中","可以被动态代理拦截目标类的方法。
+
+151．	正确答案：反转操作在映射文件中通过对集合的inverse属性的设置","来控制关联关系和对象的级联关系。级联操作是指当主控方执行保存、更新或者删除操作时","其关联对象（被控方）也执行相同的操作。
+
+152．	正确答案：所谓的IoC（控制反转）是指在程序的设计中","实例不再由调用者来创建","而是由Spring容器来创建。Spring容器会负责控制程序之间的关系","而不是由程序代码直接控制","这样控制权由应用代码转移到了外部容器","控制权发生了反转","也就是Spring的IoC思想。
+
+153．	正确答案：通常持久化类的编写应该遵循一些规则","具体如下：
+
+ 1）持久化类中必须提供无参数 public 构造器。(如果没有提供任何构造方法","虚拟机会自动提供默认构造方法","但是如果提供了其它有参数的构造方法的话","虚拟机就不再提供默认构造方法","必须要手动编写无参构造方法)。
+
+ 2）持久化类中所有属性使用private修饰","提供public的getters和setters方法。
+
+ 3）必须提供标识属性OID","与数据库表中主键对应","例如Customer类id属性。
+
+ 4）持久化类属性应尽量使用基本数据类型的包装类型。例如int类型的使用Integer 、long类型的使用 Long","目的是为了与数据库表的字段默认值null一致。
+
+ 5）持久化类不要用final修饰","使用final将无法生成代理对象进行优化。
+
+154．	正确答案：name: 必填属性","它指定该包的名字","此名字是该包被其他包引用的key。
+
+namespace: 可选属性","该属性定义该包的命名空间。
+
+extends: 可选属性","它指定该包继承自其他包。继承其他包","可以继承其他包中的Action定义、拦截器定义等。
+
+abstract: 可选属性","它指定该包是否是一个抽象包","抽象包中不能包含Action定义。
+
+155．	正确答案：Struts2框架把ValueStack对象保存在名为“struts.valueStack”的request属性中","也就是说ValueStack与Action的生命周期保持一致","ValueStack的生命周期是随着request的创建而创建","随request的销毁而销毁。
+
+156．	正确答案：如果action实例的getActionMessage()方法返回不为null","则该标签负责输出该方法返回的系列信息。
+
+157．	正确答案：一个事务在执行过程中","既可以访问其他事务未提交的新插入的数据","又可以访问未提交的修改数据。如果一个事务已经开始写数据","则另外一个事务则不允许同时进行写操作","但允许其他事务读此行数据。此隔离级别可防止丢失更新。
+
+158．	正确答案：(1) 属性setter注入(2)构造方法注入(3)接口注入
+
+159．	正确答案：原子性（Atomic）表示将事务中所做的操作捆绑成一个不可分割的单元","即对事务所进行的数据修改等操作","要么全部执行","要么全都不执行。
+
+160．	正确答案：dispatcher这种结果类型与redirect非常相似","dispatcher结果类型是将请求转发到JSP视图资源","而redirect类型是将请求重定向到JSP视图资源。它们之间最大的差别就是一个是请求转发、一个是请求重定向","当然","如果重定向了请求","那么将丢失所有参数","其中包括Action的处理结果。
+
+161．	正确答案：<contant name=”struts.devMode” value=”true”/>
+
+162．	正确答案：(1) 方法的权限修饰符为public。
+
+(2) 返回一个字符串","就是指示的下一个页面的Result。
+
+(3) 方法没有参数。
+
+163．	正确答案：Spring容器支持多种形式的Bean的装配方式","如基于XML的装配、基于Annotation的装配和自动装配。
+
+164．	正确答案：PlatformTransactionManager接口中提供了三个事务操作方法","具体如下：
+
+ 1）TransactionStatus getTransaction(TransactionDefinition definition )：用于获取事务状态信息。
+
+ 2）void commit(TransactionStatus status)：用于提交事务。
+
+ 3）void rollback(TransactionStatus status)：用于回滚事务。
+
+165．	正确答案：(1) 构造器实例化2) 静态工厂实例化(3) 实例工厂实例化
+
+166．	正确答案：(1)@Repository：用于将数据访问层 (DAO 层 ) 的类标识为Spring中的Bean","其功能与 @Component 相同。
+
+(2)@Service：通常作用在业务层（Service层）","用于将业务层的类标识为Spring中的Bean","其功能与 @Component 相同。
+
+(3)@Constroller：通常作用在控制层（如Struts2的Action）","用于将控制层的类标识为Spring中的Bean","其功能与 @Component 相同。
+
+(4) @Autowired：用于对Bean的属性变量、属性的Set方法及构造函数进行标注","配合对应的注解处理器完成Bean的自动配置工作。默认按照Bean的类型进行装配。
+
+167．	正确答案：如果Action实例存在表单域的类型转换错误、校验错误","则该标签负责输出这些错误提示。
+
+168．	正确答案：QBC(Query By Criteria)是Hibernate提供的另一种检索对象的方式","它主要由Criteria接口、Criterion接口和Expression类组成。Criteria接口是Hibernate API中的一个查询接口","它需要由session进行创建。Criterion是Criteria的查询条件","在Criteria中提供了add(Criterion criterion)方法来添加查询条件。
+
+169．	正确答案： HibernateTemplate：相当于Hibernate的session可以直接操作PO类","依赖于SessionFactory。
+
+ LocalSessionFactoryBean：获得SessionFactory 。
+
+ HibernateTransactionManager：Hibernate的事务管理器。
+
+170．	正确答案：区别是使用get()方法加载数据时","如果指定的记录不存在","则返回null","而使用load()方法加载数据时","如果指定记录不存在","则会报出ObjectNotfountException异常","这一异常说明使用load()方法加载数据时","要求记录必须存在。
+
+171．	正确答案：(1) enctype=” multipart/form-data”
+
+(2) 请求方式为POST
+
+(3) 使用<input type=”file”/>或者<s:file/>
+
+172．	正确答案：事务有很严格的定义","需要同时满足四个特性","即原子性、一致性、隔离性、持久性。这四个特性通常称之为ACID特性","具体如下：
+
+ 原子性（Atomic）：表示将事务中所做的操作捆绑成一个不可分割的单元","即对事务所进行的数据修改等操作","要么全部执行","要么全都不执行；
+
+ 一致性（Consistency）：表示事务完成时","必须使所有的数据都保持一致状态。
+
+ 隔离性（Isolation）：指一个事务的执行不能被其它事务干扰。即一个事务内部的操作及使用的数据对并发的其他事务是隔离的","并发执行的各个事务之间不能互相干扰。
+
+ 持久性（Durability）：持久性也称永久性（permanence）","指一个事务一旦提交","它对数据库中数据的改变就应该是永久性的。提交后的其他操作或故障不会对其有任何影响。
+
+173．	正确答案：（1）首先客户端浏览器发送一个请求（HttpServletRequest）。
+
+（2）接着程序会调用StrutsPrepareAndExecuteFilter","然后询问ActionMapper这个请求是否需要调用某个Action。
+
+（3）如果ActionMapper决定需要调用某个Action","StrutsPrepareAndExecuteFilter会把请求的处理交给ActionProxy。
+
+（4）ActionProxy通过配置管理器（Configuration Manager）从配置文件（struts.xml）中读取框架的配置信息","从而找到需要调用的Action类。
+
+（5）然后ActionProxy会创建一个ActionInvocation的实例。
+
+（6）ActionInvocation使用命名模式来调用Action","在调用Action前","会依次调用所有配置的拦截器（Intercepter1、Intercepter2……）。
+
+（7）一旦Action执行完","返回结果字符串","ActionInvocation就会负责查找结果字符串对应的Result","然后执行这个Result。通常情况下Result会调用一些模板（JSP等）来呈现页面。
+
+（8）产生的Result信息返回给ActionInvocation"," 此过程中拦截器会被再次执行（顺序与Action执行之前相反）。
+
+（9）最后产生一个HttpServletResponse的响应行为","通过StrutsPrepareAndExecuteFilter反馈给客户端。
+
+174．	正确答案：AOP:面向方面编程。
+
+ioc：依赖注入；声明式事务和编程式事务积极一些通用部分。
+
+175．	正确答案：所谓的ORM就是利用描述对象和数据库表之间映射的元数据","自动把Java应用程序中的对象","持久化到关系型数据库的表中。通过操作Java对象","就可以完成对数据库表的操作。可以把ORM理解为关系型数据和对象的一个纽带","开发人员只需要关注纽带一端映射的对象即可。
+
+176．	正确答案：在JSP文件使用taglib指令导入Struts2标签库","具体代码如下：
+
+<%@taglib prefix="s" uri="/struts-tags" %>
+
+在上述代码片段中","taglib指令的uri属性用于指定引入标签库描述符文件的URI","prefix属性用于指定引入标签库描述符文件的前缀","建议使用“s”前缀。
+
+177．	正确答案：HQL（Hibernate Query Language）是面向对象的查询语言","它和SQL查询语言有些相似","但它使用的是类、对象和属性的概念","而没有表和字段的概念。在Hibernate提供的各种检索方式中","HQL是官方推荐的查询语言","也是使用最广的一种检索方式。它具有如下功能。
+
+ 1）在查询语句中设定各种查询条件。
+
+ 2）支持投影查询","即仅检索出对象的部分属性。
+
+ 3）支持分页查询。
+
+ 4）支持分组查询","允许使用group by和having关键字。
+
+ 5）提供内置聚集函数","如sum()、min()和max()。
+
+ 6）能够调用用户定义的SQL函数。
+
+ 7）支持子查询","即嵌套查询。
+
+ 8）支持动态绑定参数。
+
+178．	正确答案：(1)<s:form>(2)<s:submit>(3)<s:textfield>(4)<s:textarea>(5)<s:password>(6)<s:radio>(7)<s:checkbox>(8)<s:checkboxlist>(9)<s:select>(10)<s:optgroup>(11)<s:file>(12)<s:hidden>(13)<s:reset>
+
+179．	正确答案：在通常的查询过程中","有时只需查询部分属性","并不需要查询一个类的所有属性。如果仍然查询所有属性","是十分影响查询性能的。为此","在Hibernate中提供了投影查询","用来查询对象的部分属性。
+
+180．	正确答案：好处：Action并没有直接和Servlet API进行耦合","和Servlet关联度低","方便Action进行单元测试。
+
+缺点：在实现业务逻辑时","经常要访问Servlet中的对象","但是解耦使得Action不能直接访问Servlet API。
+
+181．	正确答案：@Controller用来标注web层信息","在Spring容器中注册实例。
+
+@Service用来标注配置的Service层信息。
+
+@Transactional用来配置事务。
+
+@Autowire用来自动注入Hibernate模板。
+
+@Repository用来标注配置DAO层。
+
+182．	正确答案：cascade的相关属性可选值如下：
+
+ save-update：在执行save、update或saveOrUpdate时进行关联操作。
+
+ delete：在执行delete时进行关联操作。
+
+ delete-orphan：表示孤儿删除","即删除所有和当前对象解除关联关系的对象。
+
+ all：所有情况下均进行关联操作","但不包含delete-orphan的操作。
+
+ all-delete-orphan：所有情况下均进行关联操作。
+
+ none：所有情况下均不进行关联操作。这是默认值。
+
+183．	正确答案：<s:form>标签中包含三个属性：action、method和enctype。其中action属性用于指定提交时对应的action方法","method属性用于设置表单的提交方式","而enctype属性的取值决定了表单数据的编码方式。
+
+184．	正确答案：事务需要同时满足四个特性","分别是原子性、一致性、隔离性、持久性。
+
+185．	正确答案：(1)脏读(2)不可重复读(3)虚读/幻读(4)丢失更新
+
+186．	正确答案：脱管态也称离线态或者游离态","当某个持久化状态的实例与Session的关联被关闭时就变成了脱管态。脱管态对象存在持久化标识OID","并且仍然与数据库中的数据存在关联","只是失去了与当前Session的关联","脱管状态对象发生改变时Hibernate不能检测到。
+
+187．	正确答案：（1）在struts.xml文件中通过<constant>元素配置常量。在配置时","需要指定两个必填的属性name和value。
+
+<struts>
+
+<!-- 设置默认编码集为UTF-8 -->
+
+<constant name="struts.i18n.encoding" value="UTF-8" />
+
+<!-- 设置使用开发模式 -->
+
+<constant name="struts.devMode" value="true" />
+
+</struts>
+
+（2）在struts.properties文件中配置常量。每个key对应一个value","key表示的是Struts2框架中的常量","而value则是其常量值。
+
+### 设置默认编码集为UTF-8
+
+struts.i18n.encoding=UTF-8
+
+### 设置不使用开发模式
+
+struts.devMode=false
+
+（3）在web.xml文件中通过初始化参数配置常量。通过<filter>元素的<init-param>子元素指定","每个<init-param>元素配置了一个Struts2常量。
+
+<filter>
+
+<!-- 指定Struts2的核心过滤器 -->
+
+<filter-name>struts2</filter-name>
+
+<filter-class>
+
+org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter
+
+</filter-class>
+
+<!--通过init-param元素配置Struts2常量","配置默认编码集为UTF-8 -->
+
+<init-param>
+
+<param-name>struts.i18n.encoding</param-name>
+
+<param-value>UTF-8</param-value>
+
+</init-param>
+
+</filter>
+
+188．	正确答案：(1)读未提交(2)读已提交(3)可重复读(4)序列化
+
+189．	正确答案：(1)类缓存区域
+
+(2)集合缓存区域
+
+(3)更新时间戳区域
+
+(4)查询缓存区域
+
+190．	正确答案：脏读是指一个事务读取到另一个事务未提交的数据。
+
+191．	正确答案：(1) 与基本数据类型的属性对应。
+
+(2) 直接使用域对象。
+
+192．	正确答案：(1)拦截器是基于java的反射机制的","而过滤器是基于函数回调。
+
+(2)拦截器不依赖与servlet容器","过滤器依赖与servlet容器。
+
+(3)拦截器只能对action请求起作用","而过滤器则可以对几乎所有的请求起作用。
+
+(4)拦截器可以访问action上下文、值栈里的对象","而过滤器不能访问。
+
+(5)在action的生命周期中","拦截器可以多次被调用","而过滤器只能在容器初始化时被调用一次。
+
+193．	正确答案：(1) 支持对象方法调用。
+
+(2) 支持类静态方法调用和值访问。
+
+(3) 支持赋值操作和表达式串联。
+
+(4) 访问OGNL上下文。
+
+(5) 操作集合对象。
+
+194．	正确答案：(1) Bean模块
+
+(2) Core核心模块
+
+(3) Context上下文模块
+
+(4) Expression Language模块
+
+195．	正确答案：控制标签：(1)<s:if>(2)<s:elseif>(3)<s:else>(4)<s:iterator>
+
+数据标签：(1)<s:propery>(2)<s:a>(3)<s:debug>(4)<s:include>(5)<s:param>
+
+196．	正确答案：级联操作是指当主控方执行保存、更新或者删除操作时其关联对象（被控方）也执行相同的操作。在映射文件中通过对cascade属性的设置来控制是否对关联对象采用级联操作。
+
+cascade定义的是有关联关系的对象之间的级联关系cascade的相关属性可选值如下：
+
+ all ：所有情况下均进行关联操作。
+
+ none：所有情况下均不进行关联操作。这是默认值。
+
+ save-update：在执行save、update或saveOrUpdate时进行关联操作。
+
+ delete：在执行delete时进行关联操作。
+
+197．	正确答案：在Hibernate的二级缓存中","可以设定以下4种类型的并发访问策略","来解决这些问题"," 每一种访问策略对应一种事务隔离级别","具体介绍如下：
+
+ 1）只读型(Read-Only)：提供Serializable数据隔离级别","对于从来不会被修改的数据"," 可以采用这种访问策略。
+
+ 2）读写型(Read-write)：提供 Read Commited 数据隔离级别","对于经常读但是很少被修改的数据","可以采用这种隔离类型","因为它可以防止脏读。
+
+ 3）非严格读写(Nonstrict-read-write)：不保证缓存与数据库中数据的一致性","提供 Read Uncommited事务隔离级别","对于极少被修改","而且允许脏读的数据","可以采用这种策略。
+
+ 4）事务型(Transactional)：仅在受管理环境下适用","它提供了Repeatable Read事务隔离级别。对于经常读但是很少被修改的数据","可以采用这种隔离类型","因为它可以防止脏读和不可重复读。
+
+198．	正确答案：在Session中提供了大量的常用方法","具体如下：
+
+ save()、update() 和saveOrUpdate()方法：用于增加和修改对象。
+
+ delete()方法：用于删除对象。
+
+ get()和load()方法：根据主键查询。
+
+ createQuery() 和createSQLQuery()方法：用于数据库操作对象。
+
+ createCriteria()方法：条件查询。
+
+199．	正确答案：构造器实例化是指Spring容器通过Bean对应的类中默认的构造函数来实例化Bean。
+
+200．	正确答案：Struts2默认的表达式语言就是OGNL","它具有以下特点：
+
+ 1）支持对象方法调用。
+
+ 2）支持类静态方法调用和值访问","表达式的格式为@[类全名(包括包路径)]@[方法名 |  值名]。
+
+ 3）支持赋值操作和表达式串联。
+
+ 4）访问OGNL上下文（OGNL context）和ActionContext。
+
+ 5）操作集合对象。
+
+201．	正确答案：BeanFactory和ApplicationContext都是通过xml配置文件加载bean的","相比之下","ApplicationContext提供了更多的扩展功能","其主要的优势在于延迟加载","如果Bean的某一个属性没有注入","使用BeanFacotry加载后","在第一次调用getBean()方法时会抛出异常","而ApplicationContext则在初始化时自检","这样有利于检查所依赖属性是否注入。因此","在实际开发中","通常情况下系统都选择使用ApplicationContext","而只有在系统资源较少时","才考虑使用BeanFactory。
+
+202．	正确答案：<%@ page language="java" contentType="text/html; charset=UTF-8"
+
+pageEncoding="UTF-8"%>
+
+<%@ taglib prefix="s" uri="/struts-tags"%>
+
+<html>
+
+<head>
+
+<title>radio标签</title>
+
+</head>
+
+<body>
+
+<s:radio name="interest" label="爱好" list="#{'0':'篮球'","'1':'排球'","'2':'足球'}" value="2" />
+
+</body>
+
+</html>
+
+203．	正确答案：<filter>
+
+<!-- 指定Struts2的核心过滤器 -->
+
+<filter-name>struts2</filter-name>
+
+<filter-class>
+
+org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter
+
+</filter-class>
+
+<!--通过init-param元素配置Struts2常量","配置默认编码集为UTF-8-->
+
+<init-param>
+
+<param-name>struts.i18n.encoding</param-name>
+
+<param-value>UTF-8</param-value>
+
+</init-param>
+
+</filter>
+
+204．	正确答案：Struts2的执行流程如下：
+
+（1）首先客户端浏览器发送一个请求（HttpServletRequest）。
+
+（2）接着程序会调用StrutsPrepareAndExecuteFilter","然后询问ActionMapper这个请是否需要调用某个Action。
+
+（3）如果ActionMapper决定需要调用某个Action","StrutsPrepareAndExecuteFilter会把请求的处理交给ActionProxy。
+
+（4）ActionProxy通过配置管理器（Configuration Manager）从配置文件（struts.xml）中读取框架的配置信息","从而找到需要调用的Action类。
+
+（5）然后ActionProxy会创建一个ActionInvocation的实例。
+
+（6）ActionInvocation使用命名模式来调用Action","在调用Action前","会依次调用所有配置的拦截器（Intercepter1、Intercepter2……）。
+
+（7）一旦Action执行完","返回结果字符串","ActionInvocation就会负责查找结果字符串对应的Result","然后执行这个Result。通常情况下Result会调用一些模板（JSP等）来呈现页面。
+
+（8）产生的Result信息返回给ActionInvocation"," 此过程中拦截器会被再次执行（顺序与Action执行之前相反）。
+
+（9）最后产生一个HttpServletResponse的响应行为","通过StrutsPrepareAndExecuteFilter反馈给客户端。
+
+205．	正确答案：组合查询是指通过Restrictions工具类的相应方法动态的构造查询条件","并将查询条件加入Criteria对象","从而实现查询功能。
+
+206．	正确答案：Struts 2 默认提供了4种主题","分别为simple、xhtml、css_xhtml和Ajax。
+
+ 1）simple 主题：这是最简单的主题","使用该主题时","每个UI标签只生成最基本的HTML元素","没有任何附加功能。
+
+ 2）xhtml 主题：这是Struts 2 的默认主题","它对simple主题进行了扩展","提供了布局功能、Label显示名称、以及与验证框架和国际化框架的集成。
+
+ 3）css_xhtml ：该主题是对xhtml的扩展","在xhtml的基础之上添加对CSS的支持和控制。
+
+ 4）Ajax ：继承自xhtml","提供Ajax支持。
+
+207．	正确答案：使用redirect结果类型的工作过程如下：
+
+（1）浏览器发出一个请求","Struts2框架调用对应的Action实例对请求进行处理。
+
+（2）Action返回“success”结果字符串","Struts2框架根据这个结果选择对应的结果类型","这里使用的是redirect结果类型。
+
+（3）ServletRedirectResult在内部使用HttpServletResponse的sendRedirect()方法将请求重新定向到目标资源。
+
+（4）浏览器重新发起一个针对目标资源的新请求。
+
+（5）目标资源作为响应呈现给用户。
+
+208．	正确答案：(1) default.properties
+
+(2) struts-default.xml
+
+(3) struts-plugin.xml
+
+(4) struts.xml
+
+(5) struts.properties
+
+(6) web.xml
+
+209．	正确答案：<!-- 监听器 -->
+
+<context-param>
+
+<param-name>contextConfigLocation</param-name>
+
+<param-value>classpath:applicationContext.xml</param-value>
+
+</context-param>
+
+<listener>
+
+<listener-class>
+
+org.springframework.web.context.ContextLoaderListener
+
+</listener-class>
+
+</listener>
+
+210．	正确答案：悲观锁是指在每次操作数据时","总是悲观地认为会有其他事务也会来操作同一数据","因此","在整个数据处理过程中","将会把数据处于锁定状态。悲观锁具有排它性","一般由数据库来实现","在锁定时间内","其它事务不能对数据进行存取等操作","这样可能导致长时间的等待问题。
+
+211．	正确答案：与其它操作数据库的技术相比","Hibernate具有以下几点优势：
+
+ 1）Hibernate对JDBC访问数据库的代码做了轻量级封装","大大简化了数据访问层繁琐的重复性代码","并且减少了内存消耗","加快了运行效率。
+
+ 2）Hibernate是一个基于JDBC的主流持久化框架","是一个优秀的ORM实现","它很大程度的简化了dao（Data Access Object","数据访问对象）层编码工作。
+
+ 3）Hibernate使用Java的反射机制","而不是使用字节码增强程序类并实现透明性。
+
+ 4）Hibernate的性能非常好","映射的灵活性很出色。它支持很多关系型数据库","从一对一到多对多的各种复杂关系。
+
+ 5）可扩展性强","由于源代码的开源以及API的开放","当本身功能不够用时","可以自行编码进行扩展。
+
+212．	正确答案：首先定义配置文件的路径","然后创建Spring容器","加载配置文件","并通过Spring容器获取接口的实现类对象并调用实例方法","最后使用Junit测试运行测试方法","打印结果到控制台。
+
+213．	正确答案：二级缓存与一级缓存一样","也是根据对象的ID来加载和缓存数据的。当执行某个查询获得的结果集为实体对象时","Hibernate就会把获得的实体对象按照ID加载到二级缓存中。在访问指定的对象时","首先从一级缓存中查找","找到就直接使用","找不到则转到二级缓存中查找（必须配置和启用二级缓存）。如果二级缓存中找到","就直接使用","否则会查询数据库","并将查询结果放到一级缓存和二级缓存中。
+
+214．	正确答案：创建BeanFactory实例时","需要提供Spring所管理容器的详细配置信息","这些信息通常采用XML文件形式来管理","加载配置信息的代码片段如下：
+
+BeanFactory beanFactory =
+
+new XmlBeanFactory(new FileSystemResource("F:/applicationContext.xml"));
+
+215．	正确答案：Comons-fileupload-1.2.1.jar 和 commons-io-1.2.1.jar  第一步：在web-inf/lib下面添加必须的jar文件。
+
+第二步：把form表单的enctype设置为“multipart/form-data”; 第三步：在action类中；添加必要属性: private File upload;//得到上传文件的类型 private String uploadFIletype;//文件类型 private String uploadFileName;//文件名称 。
+
+216．	正确答案：在数据库操作中","一项事务（Transaction）是由一条或多条操作数据库的SQL语句组成的一个不可分割的工作单元。当事务中的所有操作都正常完成时","整个事务才能被提交到数据库中","如果有一项操作没有完成","则整个事务会被回滚。
+
+217．	正确答案：@Resource作用与@Autowired一样。其区别在于@Autowired默认按照Bean类型装配","而@Resource默认按照Bean实例名称进行装配。
+
+218．	正确答案：值栈的作用：
+
+值栈可以作为一个数据中转站","用于在前台-后台之间传递数据","最典型的做法就是将Struts2标签与OGNL表达式的结合","ValueStack(值栈)实际上是一个接口","在Struts2中利用OGNL时","实际上使用的是实现了该接口的OgnlValueStack类","这个类是OGNL的基础。值栈就是OGNL 表达式存取数据的地方。
+
+值栈的生命周期：
+
+ValueStack贯穿整个 Action 的生命周期","每个Action 类的对象实例都拥有一个ValueStack对象"," 在其中保存当前Action 对象和其他相关对象。Struts 2框架把ValueStack 对象保存在名为 “struts.valueStack” 的request属性中","也就是说ValueStack与Action的生命周期保持一致","ValueStack的生命周期是随着request的创建而创建","随request的销毁而销毁。
+
+219．	正确答案：A","B","D","E
+
+220．	正确答案：<s:property>标签的属性及属性说明如下所示：
+
+ 1）id：可选属性","指定该元素的标识。
+
+ 2）default：可选属性","如果要输出的属性值为null","则显示default属性的指定值。
+
+ 3）escape：可选属性","指定是否忽略HTML代码。
+
+ 4）value：可选属性","指定需要输出的属性值","如果没有指定该属性","则默认输出  ValueStack栈顶的值。
+
+221．	正确答案：在低版本的Struts2中","默认开启了访问类静态方法的支持","但是高版本的Struts2中","默认是关闭了这项支持的","也就是说要想访问类的静态方法","需要手动开启设置。其开启方法是在struts.xml中进行如下配置","配置方式如下所示：
+
+<constant name="struts.ognl.allowStaticMethodAccess" value="true">
+
+</constant>
+
+222．	正确答案：(1)方便解耦、简化开发
+
+(2)AOP编程的支持
+
+(3)声明式事务的支持
+
+(4)方便程序的测试
+
+(5)方便集成各种优秀框架
+
+(6)降低JavaEE API的使用难度
+
+223．	正确答案：Spring按照通知在目标类方法的连接点位置","可以分为5种类型","具体如下：
+
+ 1）org.springframework.aop.MethodBeforeAdvice（前置通知）
+
+在目标方法执行前实施增强","可以应用于权限管理等功能。
+
+ 2）org.springframework.aop.AfterReturningAdvice（后置通知）
+
+在目标方法执行后实施增强","可以应用于关闭流、上传文件、删除临时文件等功能。
+
+ 3）org.aopalliance.intercept.MethodInterceptor（环绕通知）
+
+在目标方法执行前后实施增强","可以应用于日志、事务管理等功能。
+
+ 4）org.springframework.aop.ThrowsAdvice（异常抛出通知）
+
+在方法抛出异常后实施增强","可以应用于处理异常记录日志等功能。
+
+ 5）org.springframework.aop.IntroductionInterceptor（引介通知）
+
+在目标类中添加一些新的方法和属性","可以应用于修改老版本程序（增强类）。
+
+224．	正确答案：Commons FileUpload通过将HTTP的数据保存到临时文件夹","然后Struts使用fileUpload拦截器将文件绑定到Action的实例中。从而我们就能够以本地文件方式的操作浏览器上传的文件。
+
+225．	正确答案：在Hibernate中持久化的对象可以划分为三种状态","分别是瞬时态、持久态和脱管态","这三种状态的详细介绍具体如下。
+
+瞬时态（transient）
+
+瞬时态也称为临时态或者自由态","瞬时态的实例是由new命令创建、开辟内存空间的对象","不存在持久化标识OID（相当于主键值）","尚未与Hibernate Session关联","在数据库中也没有记录","失去引用后将被JVM回收。瞬时状态的对象在内存中是孤立存在的","与数据库中的数据无任何关联","仅是一个信息携带的载体。
+
+持久态（persistent）
+
+持久态的对象存在持久化标识OID ","加入到了Session缓存中","并且相关联的Session没有关闭","在数据库中有对应的记录","每条记录只对应唯一的持久化对象","需要注意的是","持久态对象是在事务还未提交前变成持久态的。
+
+脱管态（detached）
+
+脱管态也称离线态或者游离态","当某个持久化状态的实例与Session的关联被关闭时就变成了脱管态。脱管态对象存在持久化标识OID","并且仍然与数据库中的数据存在关联","只是失去了与当前Session的关联","脱管状态对象发生改变时Hibernate不能检测到。
+
+226．	正确答案：Hibernate的检索方式主要有5种","分别为导航对象图检索方式、OID检索方式、HQL检索方式、QBC检索方式和SQL检索方式。
+
+227．	正确答案：Hibernate中常见内置的主键生成策略如下：
+
+ increment：用于long、short、或int类型","由Hibernate自动以递增的方式生成唯一标识符","每次增量为1。
+
+ identity：采用底层数据库本身提供的主键生成标识符","条件是数据库支持自动增长数据类型。
+
+ sequence：Hibernate根据底层数据库序列生成标识符","条件是数据库支持序列。
+
+ native：根据底层数据库对自动生成表示符的能力来选择identity、sequence、hilo三种生成器中的一种","适合跨数据库平台开发。
+
+ uuid：Hibernate采用128位的UUID算法来生成标识符。
+
+ assigned：由java程序负责生成标识符","如果不指定id元素的generator属性","则默认使用该主键生成策略。
+
+228．	正确答案：在web.xml文件中配置Struts2核心过滤器的代码片段如下所示：
+
+<!--配置Struts2核心控制器-->
+
+<filter>
+
+<filter-name>struts2</filter-name>
+
+<filter-class>
+
+org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter
+
+</filter-class>
+
+</filter>
+
+<filter-mapping>
+
+<filter-name>struts2</filter-name>
+
+<url-pattern>/*</url-pattern>
+
+</filter-mapping>
+
+229．	正确答案：默认情况下"," Session 在如下几种时间点刷出缓存：
+
+（1）当应用程序调用 Transaction 的 commit()方法时","该方法先刷出缓存(调用session.flush()方法)","然后再向数据库提交事务(调用tx.commit()方法)。
+
+（2）当应用程序执行一些查询操作时","如果缓存中持久化对象的属性已经发生了变化","会先刷出缓存","以保证查询结果能够反映持久化对象的最新状态。
+
+（3）调用 Session 的 flush() 方法。
+
+230．	正确答案：autowire属性有5个值","其值说明如下所示。
+
+ 1）byName：根据Property的Name自动装配","如果一个bean的name","和另一个bean中的Property的name相同","则自动装配这个bean到Property中。
+
+ 2）byType：根据Property的数据类型（Type）自动装配","如果一个bean的数据类型","兼容另一个bean中Property的数据类型","则自动装配。
+
+ 3）constructor：根据构造函数参数的数据类型","进行byType模式的自动装配。
+
+ 4）autodetect：如果发现默认的构造函数","用constructor模式","否则用byType模式。
+
+ 5）no：默认情况下","不使用自动装配","Bean依赖必须通过ref元素定义。
+
+231．	正确答案：项目启动","一系列配置文件被加载","如web.xml、struts.xml文件等。用户通过客户端浏览器发送了一个helloWorld.action请求","该请求被核心控制器拦截到","通过匹配struts.xml文件中的配置","找到请求对应的执行类HelloWorldAction","并默认调用HelloWorldAction中的execute()方法","返回逻辑视图名","然后再通过匹配找到并转发到对应的物理视图页面success.jsp中","最后响应并输出返回结果。
+
+232．	正确答案：拦截器的配置是在struts.xml文件中完成的","它通常以<interceptor>标签开头","以</interceptor>标签结束。定义拦截器的语法格式如下：
+
+<interceptor name="interceptorName" class="interceptorClass">
+
+<param name="paramName">paramValue</param>
+
+</interceptor>
+
+上述语法格式中","name属性用来指定拦截器的名称","class属性用于指定拦截器的实现类。有时","在定义拦截器时需要传入参数","这时需要使用<param>标签","其中name属性用来指定参数的名称","paramValue表示参数的值。
+
+233．	正确答案：Struts2拦截器的实现原理与Servlet过滤器的实现原理类似","它以链式执行","对真正执行的方法execute()进行拦截。首先执行Action配置的拦截器","在Action和Result执行之后","拦截器会再次执行（与先前调用顺序相反）","在此链式执行的过程中","每一个拦截器都可以直接返回","从而终止余下的拦截器、Action及Result的执行。
+
+234．	正确答案：对于专业术语的解释","具体如下：
+
+ Joinpoint（连接点）：是指那些被拦截到的点","在Spring中","可以被动态代理拦截目标类的方法。
+
+ Pointcut（切入点）：是指要对哪些Joinpoint进行拦截","即被拦截的连接点。
+
+ Advice（通知）：是指拦截到Joinpoint之后要做的事情","即对切入点增强的内容。
+
+ Target（目标）：是指代理的目标对象。
+
+ Weaving（织入）：是指把增强代码应用到目标上","生成代理对象的过程。
+
+ Proxy（代理）：是指生成的代理对象。
+
+ Aspect（切面）：是切入点和通知的结合。
+
+235．	正确答案：（1）实现Interceptor接口","然后实现该接口中提供的init()、intercept()和destroy()这三个方法。
+
+（2）继承抽象拦截器类AbstractIntercepter","该类实现了Interceptor接口","并且提供了init()方法和destroy()方法的空实现。使用时","可以直接继承该抽象类","而不用实现那些不必要的方法。
+
+236．	正确答案：设值注入要求一个Bean必须满足以下两点要求：
+
+ 1）Bean类必须提供一个默认的构造方法。
+
+ 2）Bean类必须为需要注入的属性提供对应的set方法。
+
+237．	正确答案：（1）创建下载页面simpledownload.jsp","在页面中添加如下代码：
+
+<a href="simpledownload">Struts2.txt</a>
+
+（2）在cn.itcast.action包中新建SimpleDownLoadAction.java文件","此文件用于处理文件下载的核心操作。
+
+package cn.itcast.action;
+
+import java.io.InputStream;
+
+import org.apache.struts2.ServletActionContext;
+
+import com.opensymphony.xwork2.ActionSupport;
+
+public class SimpleDownLoadAction  extends ActionSupport{
+
+//定义了返回InputStream的方法","该方法作为被下载文件的入口
+
+public InputStream getDownloadFile(){
+
+return ServletActionContext.getServletContext()
+
+.getResourceAsStream("/upload/Struts2.txt");
+
+}
+
+@Override
+
+public String execute() throws Exception {
+
+return SUCCESS;
+
+}
+
+}
+
+（3）配置struts.xml文件
+
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC
+
+"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+
+"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+<package name="struts2" namespace="/" extends="struts-default">
+
+<action name="simpledownload"
+
+class="cn.itcast.action.SimpleDownLoadAction">
+
+<result type="stream">
+
+<!--文件类型 -->
+
+<param name="contentType">text/plain</param>
+
+<!--指定文件名 -->
+
+<param name="contentDisposition">
+
+attachment;filename="Struts2.txt"
+
+</param>
+
+<!--输入流 -->
+
+<param name="inputName">downloadFile</param>
+
+</result>
+
+</action>
+
+</package>
+
+</struts>
+
+238．	正确答案：(1) chain：用来处理Action链","被跳转的Action中仍然获取上个页面的值如request信息。
+
+(2) dispatcher：用来转向页面","通常处理JSP","是默认的结果类型。
+
+(3) redirect：重定向到一个URL","被跳转的页面中丢失传递的信息。
+
+(4) redirectAction：重定向到一个Action","调转的页面中丢失传递的信息。
+
+(5) stream：向浏览器发送InputStream对象","通常用来处理文件下载","还可用于Ajax数据。
+
+239．	正确答案：OGNL的全称是对象图导航语言（Object-Graph Navigation Language）","它是一种功能强大的开源表达式语言","使用这种表达式语言","可以通过某种表达式语法","存取Java对象的任意属性","调用Java对象的方法","同时能够自动实现必要的类型转换。如果把表达式看作是一个带有语义的字符串","那么OGNL无疑成为了这个语义字符串与Java对象之间沟通的桥梁。
+
+240．	正确答案：实现Action控制类的方式分别如下：
+
+（1）POJO的实现
+
+public class LoginAction {
+
+private String username;
+
+private String password;
+
+public String getUsername() {
+
+return username;
+
+}
+
+public void setUsername(String username) {
+
+this.username = username;
+
+}
+
+public String getPassword() {
+
+return password;
+
+}
+
+public void setPassword(String password) {
+
+this.password = password;
+
+}
+
+public String execute() throws Exception {
+
+return "success";
+
+}
+
+}
+
+（2）实现Action接口
+
+import com.opensymphony.xwork2.Action;
+
+public class LoginAction implements Action {
+
+public String execute() throws Exception {
+
+return "success";
+
+}
+
+}
+
+（3）继承ActionSupport类
+
+import com.opensymphony.xwork2.ActionSupport;
+
+public class LoginAction extends ActionSupport{
+
+public String execute() throws Exception {
+
+return "success";
+
+}
+
+}
+
+241．	正确答案：// 方式一：
+
+import com.opensymphony.xwork2.ActionInvocation;
+
+import com.opensymphony.xwork2.interceptor.AbstractInterceptor;
+
+public class PrivilegeInterceptor extends AbstractInterceptor {
+
+@Override
+
+public String intercept(ActionInvocation invocation) throws Exception {
+
+return null;
+
+}
+
+}
+
+// 方式二：
+
+import com.opensymphony.xwork2.ActionInvocation;
+
+import com.opensymphony.xwork2.interceptor.Interceptor;
+
+public class PrivilegeInterceptor implements Interceptor{
+
+@Override
+
+public void init() {
+
+}
+
+@Override
+
+public String intercept(ActionInvocation invocation) throws Exception {
+
+return null;
+
+}
+
+@Override
+
+public void destroy() {
+
+}
+
+}
+
+242．	正确答案：获取Session实例有两种方式","一种是通过openSession()方法","另一种是通过getCurrentSession()方法。两种方法获取Session的代码如下所示：
+
+//采用openSession方法创建session
+
+Session session = sessionFactory.openSession();
+
+//采用getCurrentSession()方法创建session
+
+Session session = sessionFactory.getCurrentSession();
+
+243．	正确答案：Spring 3为Bean实例定义了五种Bean的作用域","分别是singleton（单例）、prototype（原型）、request、session和global Session。这五种作用域说明如下所示。：
+
+ 1）singleton：单例模式","使用singleton定义的bean在Spring容器中将只有一个实例","也就是说","无论有多少个Bean引用它","始终将指向同一个对象。这也是Spring容器默认的作用域。
+
+ 2）prototype：原型模式","每次通过Spring容器获取的prototype定义的Bean时","容器都将创建一个新的Bean实例。
+
+ 3）request：在一次HTTP请求中","容器会返回该Bean的同一个实例。而对不同的HTTP请求则会产生一个新的Bean","而且该Bean仅在当前HTTP Request内有效。
+
+ 4）session：在一次HTTP Session中","容器会返回该Bean的同一个实例。而对不同的HTTP请求则会产生一个新的Bean","而且该Bean仅在当前HTTP Session内有效。
+
+ 5）global Session：在一个全局的HTTP Session中","容器会返回该Bean的同一个实例。仅在使用portlet context时有效。
+
+244．	正确答案：1、初始化","读取struts-config.xml、web.xml等配置文件（所有配置文件的初始化）
+
+2、发送HTTP请求","客户端发送以.do结尾的请求
+
+3、填充FormBean（实例化、复位、填充数据、校验、保存）
+
+4、将请求转发到Action（调用Action的execute（）方法）
+
+5、处理业务（可以调用后台类","返回ActionForward对象）
+
+6、返回目标响应对象（从Action返回到ActionServlet）
+
+7、转换Http请求到目标响应对象（查找响应","根据返回的Forward keyword）
+
+8、Http响应","返回到Jsp页面
+
+245．	正确答案：隔离性（Isolation）指一个事务的执行不能被其它事务干扰。即一个事务内部的操作及使用的数据对并发的其他事务是隔离的","并发执行的各个事务之间不能互相干扰。
+
+246．	正确答案：值栈可以作为一个数据中转站","用于在前台-后台之间传递数据","最典型的做法就是将Struts2标签与OGNL表达式的结合","ValueStack(值栈)实际上是一个接口","在Struts2中利用OGNL时","实际上使用的是实现了该接口的OgnlValueStack类","这个类是OGNL的基础。
+
+247．	正确答案：Struts2 默认提供了4种内建主题","分别为simple、xhtml、css_xhtml和Ajax。
+
+ 1）simple 主题：这是最简单的主题","使用该主题时","每个UI标签只生成最基本的HTML元素","没有任何附加功能。
+
+ 2）xhtml 主题：这是Struts2 的默认主题","它对simple主题进行了扩展","提供了布局功能、Label显示名称、以及与验证框架和国际化框架的集成。
+
+ 3）css_xhtml：该主题是对xhtml的扩展","在xhtml的基础之上添加对CSS的支持和控制。
+
+ 4）Ajax：继承自xhtml","提供Ajax支持。
+
+248．	正确答案：DI的全称是Dependency Injection","中文称之为依赖注入。如果一个对象A需要使用另一个对象B才能实现某个功能","这时就可以说A对象依赖于B对象","而Spring容器在创建A对象时","会自动将A对象需要的B对象注入到A对象中","此过程就是依赖注入。
+
+249．	正确答案：常用的二级缓存插件有4种","具体介绍如下：
+
+ 1）EHCache：可作为进程范围内的缓存","存放数据的物理介质可以是内存或硬盘","对 Hibernate 的查询缓存提供了支持。
+
+ 2）OpenSymphony OSCache：可作为进程范围内的缓存","存放数据的物理介质可以是内存或硬盘。它提供了丰富的缓存数据过期策略","并且对Hibernate的查询缓存提供了支持。
+
+ 3）SwarmCache：可作为集群范围内的缓存","但不支持 Hibernate 的查询缓存。
+
+ 4）JbossCache：可作为集群范围内的缓存","支持 Hibernate 的查询缓存。
+
+250．	正确答案：事务的4大隔离级别分别是读未提交、读已提交、可重复读取和序列化。
+
+251．	正确答案：自然主键和代理主键","具体如下：
+
+ 自然主键：把具有业务含义的字段作为主键","称之为自然主键。例如在customer表中","如果把name字段作为主键","其前提条件必须是：每一个客户的姓名不允许为null","不允许客户重名","并且不允许修改客户姓名。尽管这也是可行的","但是不能满足不断变化的业务需求","一旦出现了允许客户重名的业务需求","就必须修改数据模型","重新定义表的主键","这给数据库的维护增加了难度。
+
+ 代理主键：把不具备业务含义的字段作为主键","称之为代理主键。该字段一般取名为“ID”","通常为整数类型","因为整数类型比字符串类型要节省更多的数据库空间。在上面例子中","显然更合理的方式是使用代理主键。
+
+252．	正确答案：导航对象图检索方式是根据已经加载的对象","导航到其他对象。它利用类与类之间的关系来检索对象。譬如要查找一份订单对应的客户","就可以由订单对象自动导航找到订单所属的客户对象。当然","前提是必须在对象关系映射文件上配置了多对一的关系。
+
+253．	正确答案：OID检索方式主要指用Session的get()和load()方法加载某条记录对应的对象。
+
+254．	正确答案：<s:iterator>标签主要用于对集合中的数据进行迭代","它可以根据条件遍历集合中的数据。<s:iterator>标签的属性及相关说明如下：
+
+ begin：迭代数组或集合的起始位置
+
+ end：迭代数组或集合的结束位置
+
+ status：迭代过程中的状态
+
+ step：指定每一次迭代后索引增加的值
+
+ value：迭代的数组或集合对象
+
+ var：将生成的Iterator设置为page范围的属性
+
+ id：指定了集合元素的id","现已用var代替
+
+255．	正确答案：Struts2的优势具体如下：
+
+ · 项目开源","使用及拓展方便","天生优势。
+
+ · 提供Exception处理机制。
+
+ ·  Result方式的页面导航","通过Result标签很方便的实现重定向和页面跳转。
+
+ · 通过简单、集中的配置来调度业务类","使得配置和修改都非常容易。
+
+ ·  提供简单、统一的表达式语言来访问所有可供访问的数据。
+
+ · 提供标准、强大的验证框架和国际化框架。
+
+ · 提供强大的、可以有效减少页面代码的标签。
+
+ · 提供良好的Ajax支持。
+
+ · 拥有简单的插件","只需放入相应的JAR包","任何人都可以扩展Struts2框架","比如自定义拦截器、自定义结果类型、自定义标签等","为Struts2定制需要的功能","不需要什么特殊配置","并且可以发布给其他人使用。
+
+ · 拥有智能的默认设置","不需要另外进行繁琐的设置。使用默认设置就可以完成大多数项目程序开发所需要的功能。
+
+256．	正确答案：数据库中多表之间存在的三种关系分别为多对多、一对多和一对一关系。举例如下：
+
+ 1）多对多：学生和课程","一个学生可以学习多门课程","一门课程也可以被多个学生学习
+
+ 2）一对多： 客户和订单","一个客户有多个订单
+
+ 3）一对一：身份证号和公民","一个公民对应一个身份证号
+
+257．	正确答案：一个事务在执行过程中","可以访问其他事务成功提交的新插入的数据","但不可以访问成功修改的数据。读取数据的事务将会禁止写事务（但允许读事务）","写事务则禁止任何其他事务。此隔离级别可有效的防止不可重复读和脏读。
+
+258．	正确答案：在Hibernate中使用Query对象的步骤","具体所示：
+
+（1）获得Hibernate中的Session对象。
+
+（2）编写HQL语句。
+
+（3）调用session.createQuery()方法创建查询对象。
+
+（4）如果HQL语句包含参数","则调用Query的setXxx()方法设置参数。
+
+（5）调用Query对象的list() 或uniqueResult() 方法执行查询。
+
+259．	正确答案：提供严格的事务隔离。它要求事务序列化执行","事务只能一个接着一个地执行","但不能并发执行。此隔离级别可有效的防止脏读、不可重复读和幻读。
+
+260．	正确答案：两种获取Session实例方式的主要区别是","采用openSession方法获取Session实例时","SessionFactory直接创建一个新的Session实例","并且在使用完成后需要调用close方法进行手动关闭。而getCurrentSession方法创建的Session实例会被绑定到当前线程中","它在提交或回滚操作时会自动关闭。
+
+261．	正确答案：可以使用此注解描述Spring中的Bean","但它是一个泛化的概念","仅仅表示一个组件 (Bean) ","并且可以作用在任何层次。使用时只需将该注解标注在相应类上即可。
+
+262．	正确答案：Spring的声明式事务管理通过Annotation注解的方式非常简单","我们需要做两件事情：
+
+（1）在Spring容器中注册驱动","代码如下：
+
+<tx:annotation-driven transaction-manager="transactionManager"/>
+
+（2）在需要使用事务的业务类或者方法上添加注解@Transactional","这种方式的事务详情是通过@Transactional的参数进行配置的
+
+263．	正确答案：事务的并发问题有脏读、不可重复读、虚读/幻读和更新丢失。
+
+264．	正确答案：自定义拦截器的使用过程分为3步","具体如下：
+
+1. 用户自定义的拦截器类","必须实现Interceptor接口或继承AbstractInterceptor类；
+
+2. 需要在Struts.xml中定义自定义的拦截器；
+
+3. 在Struts.xml中的Action中使用拦截器。
+
+265．	正确答案：瞬时态也称为临时态或者自由态","瞬时态的实例是由new命令创建、开辟内存空间的对象","不存在持久化标识OID（相当于主键值）","尚未与Hibernate中的Session关联","在数据库中也没有记录","失去引用后将被JVM回收。瞬时状态的对象在内存中是孤立存在的","与数据库中的数据无任何关联","仅是一个信息携带的载体。
+
+266．	正确答案：(1)初始化Hibernate","构建Configuration实例。这一步用来读取Hibernate核心配置文件和映射文件信息到Configuration对象中。
+
+(2)创建SessionFactory实例。通过Configuration对象读取到的配置文件信息并创建SessionFactory","并将Configuration对象中的所有配置文件信息存入SessionFactory内存中。
+
+(3)创建Session实例","建立数据库连接。Session是通过SessionFactory打开","创建一个Session对象就相当于建立一个新的数据库连接。
+
+(4)创建Transaction实例","开启一个事务。Transaction用于事务管理","一个Transaction对象对应的事务可以包含多个操作。在使用Hibernate进行增、删、改操作的时候","必须先创建Transaction对象。
+
+(5)利用Session接口通过的各种方法进行持久化操作。
+
+(6)提交事务。对实体对象持久化操作后","必须提交事务。
+
+(7)关闭Session","断开与数据库连接。
+
+267．	正确答案：将数据库或者硬盘数据 ","保存在内存中","减少数据库查询次数","减少硬盘交互","提高检索效率。。
+
+268．	正确答案：Spring框架优点的总结","具体如下：
+
+ 1）方便解耦、简化开发
+
+ 2）AOP编程的支持
+
+ 3）声明式事务的支持
+
+ 4）方便程序的测试
+
+ 5）方便集成各种优秀框架
+
+ 6）降低JavaEE API的使用难度
+
+269．	正确答案：使用Criteria对象查询数据的主要步骤","具体如下：
+
+（1）获得Hibernate的Session对象。
+
+（2）通过Session获得Criteria对象。
+
+（3）使用Restrictions的静态方法创建Criterion条件对象。Restrictions类中提供了一系列用于设定查询条件的静态方法","这些静态方法都返回Criterion实例","每个Criterion实例代表一个查询条件。
+
+（4）向Criteria对象中添加Criterion 查询条件。Criteria的add()方法用于加入查询条件。
+
+（5）执行Criterita的 list() 或uniqueResult() 获得结果。
+
+270．	正确答案：struts2对request进行了增强","如果在request作用域中没有查找到对应的值","就去值栈中查找","找到后会将数据取出。在请求范围中找不到时","先作为属性在root中找","找不到会作为key到contextMap中找对应的value。
+
+271．	正确答案：（符合条件即可","答案仅供参考）
+
+(1) params：将请求中的参数设置到Action中。
+
+(2) model-driven：如果一个类实现了ModelDriven","将getModel得到的结果放在ValueStack中。
+
+(3) fileUpload：提供文件上传功能。
+
+(4) i18n：记录用户选择的locale。
+
+(5) validation：使用action-validation.xml文件中定义的内容校验提交的数据。
+
+272．	正确答案：HQL（Hibernate Query Language）是面向对象的查询语言","它和SQL查询语言有些相似","但它使用的是类、对象和属性的概念","而没有表和字段的概念。在Hibernate提供的各种检索方式中","HQL是官方推荐的查询语言","也是使用最广泛的一种检索方式。
+
+273．	正确答案：(1)当应用程序调用Session接口的save()、update()、saveOrUpdate时","如果Session缓存中没有相应的对象","Hibernate就会自动的把从数据库中查询到的相应对象信息加入到一级缓存中去。
+
+(2)当调用Session接口的load()、get()方法","以及Query接口的list()、iterator()方法时","会判断缓存中是否存在该对象","有则返回","不会查询数据库","如果缓存中没有要查询对象","再去数据库中查询对应对象","并添加到一级缓存中。
+
+(3)当调用Session的close()方法时","Session缓存会被清空。
+
+(4)Session 能够在某些时间点","按照缓存中对象的变化","执行相关的 SQL 语句来同步更新数据库"," 这一过程被称为刷出缓存(flush)。
+
+274．	正确答案：在Hibernate中持久化的对象可以划分为三种状态","分别是瞬时态、持久态和脱管态。
+
+275．	正确答案：依赖注入存在三种实现方式","分别是setter方法注入、构造方法注入和接口注入。具体介绍如下：
+
+ 1）属性setter注入：指IoC容器使用setter方法来注入被依赖的实例。通过调用无参构造器或无参static工厂方法实例化bean后","调用该bean的setter方法","即可实现基于setter的DI。
+
+ 2）构造方法注入：指IoC容器使用构造方法来注入被依赖的实例。基于构造器的DI通过调用带参数的构造方法来实现","每个参数代表着一个依赖。
+
+ 3）接口注入：Spring容器不支持接口注入。
+
+276．	正确答案：在web.xml文件配置Spring监听器的代码片段如下：
+
+<!-- 监听器 -->
+
+<context-param>
+
+<param-name>contextConfigLocation</param-name>
+
+<param-value>classpath:applicationContext.xml</param-value>
+
+</context-param>
+
+<listener>
+
+<listener-class>
+
+org.springframework.web.context.ContextLoaderListener
+
+</listener-class>
+
+</listener>
+
+277．	正确答案：持久态的对象存在持久化标识OID","加入到了Session缓存中","并且相关联的Session没有关闭","在数据库中有对应的记录","每条记录只对应唯一的持久化对象","需要注意的是","持久态对象是在事务还未提交前变成持久态的。
+
+278．	正确答案：在Spring中","实例化Bean有三种方式","分别为构造器实例化、静态工厂方式实例化和实例工厂方式实例化。
+
+279．	正确答案：SessionFactory 的缓存可以分为两类","具体如下：
+
+ 内置缓存：Hibernate 自带的","不可卸载。通常在 Hibernate 的初始化阶段","Hibernate会把映射元数据和预定义的SQL语句放到 SessionFactory 的缓存中"," 映射元数据是映射文件中数据的复制","而预定义SQL语句是Hibernate根据映射元数据推导出来的。该内置缓存是只读的。
+
+ 外置缓存(二级缓存)：一个可配置的缓存插件。在默认情况下","SessionFactory不会启用这个缓存插件","外置缓存中的数据是数据库数据的复制","外置缓存的物理介质可以是内存或硬盘。
+
+280．	正确答案：在Transaction接口中","提供了事务管理的常用方法","具体如下：
+
+ commit()方法：提交相关联的session实例。
+
+ rollback()方法：撤销事务操作。
+
+ wasCommitted()方法：检查事务是否提交。
+
+281．	正确答案：所谓的持久化","就是将内存中的数据永久存储到关系型数据库中。持久化的主要应用是将内存中的对象存储在的数据库中","或者存储在磁盘文件中、XML数据文件中等等。
+
+282．	正确答案：<!--配置Struts2核心控制器-->
+
+<filter>
+
+<filter-name>struts2</filter-name>
+
+<filter-class>
+
+org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter
+
+</filter-class>
+
+</filter>
+
+<filter-mapping>
+
+<filter-name>struts2</filter-name>
+
+<url-pattern>/*</url-pattern>
+
+</filter-mapping>
+
+283．	正确答案：SessionFactory具有以下特点：
+
+ 1）它是线程安全的","它的同一个实例能够供多个线程共享。
+
+ 2）它是重量级的","不能随意的创建和销毁它的实例。
+
+284．	正确答案：1.取并解析配置文件
+
+2.读取并解析映射信息","创建SessionFactory
+
+3.打开Sesssion
+
+4.创建事务Transation
+
+5.持久化操作
+
+6.提交事务
+
+7.关闭Session
+
+8.关闭SesstionFactory
+
+285．	正确答案：Struts2常量配置共有3种方式","分别如下：
+
+ 1）在struts.xml文件中使用<constant>元素配置常量。
+
+ 2）在struts.properties文件中配置常量。
+
+ 3）在web.xml文件中通过< init-param>元素配置常量。
+
+286．	正确答案：创建ApplicationContext接口实例","通常采用两种方法","具体如下：
+
+ 1）ClassPathXmlApplicationContext：从类路径中的XML文件载入上下文定义信息","把上下文定义文件当作类路径资源"," 创建语法如下：
+
+ApplicationContext applicationContext = new ClassPathXmlApplicationContext
+
+("applicationContext.xml");
+
+ 2）FileSystemXmlApplicationContext：从文件系统中（指定的路径下）的XML文件载入上下文定义信息","创建语法如下：
+
+ApplicationContext applicationContext =
+
+new FileSystemXmlApplicationContext
+
+("F:\\workspaces\\chapter12\\src\\cn\\itcast\\ioc\\applicationContext.xml");
+
+287．	正确答案：普通标签又分为控制标签（Control Tags）和数据标签（Data Tags）。控制标签用来完成条件逻辑、循环逻辑的控制","也可用来做集合的操作。数据标签用来输出后台的数据和完成其他数据访问功能。
+
+UI标签又分为表单标签（Form Tags）、非表单标签（Non-Form Tags）和Ajax标签。表单标签主要用来生成HTML页面中的表单元素","非表单标签主要用来生成HTML的<div>标签及输出Action中封装的信息等。Ajax标签主要用来提供Ajax技术支持。
+
+288．	正确答案：值栈有两种获取方式","具体如下：
+
+（1）在request中获取值栈
+
+从request中取出值栈的信息","获取方式如下所示：
+
+// 获取ValueStack对象","通过request对象获取。
+
+ValueStack valueStack = (ValueStack)ServletActionContext.getRequest()
+
+.getAttribute(ServletActionContext.STRUTS_VALUESTACK_KEY);
+
+（2）在ActionContext中获取值栈
+
+ActionContext获取ValueStack对象的方式如下所示：
+
+//通过ActionContext获取valueStack对象
+
+ValueStack valueStack = ActionContext.getContext().getValueStack();
+
+289．	正确答案：<!--配置Struts2核心控制器-->
+
+<filter>
+
+<filter-name>struts2</filter-name>
+
+<filter-class>
+
+org.apache.struts2.dispatcher.ng.
+
+filter.StrutsPrepareAndExecuteFilter
+
+</filter-class>
+
+</filter>
+
+<filter-mapping>
+
+<filter-name>struts2</filter-name>
+
+<url-pattern>/*</url-pattern>
+
+</filter-mapping>
+
+290．	正确答案：Hibernate持久化操作的主要步骤","具体如下：
+
+（1）初始化Hibernate","构建Configuration实例。这一步用来读取Hibernate核心配置文件和映射文件信息到Configuration对象中。
+
+（2）创建SessionFactory实例。通过Configuration对象读取到的配置文件信息并创建SessionFactory","并将Configuration对象中的所有配置文件信息存入SessionFactory内存中。
+
+（3）创建Session实例","建立数据库连接。Session是通过SessionFactory打开","创建一个Session对象就相当于建立一个新的数据库连接。
+
+（4）创建Transaction实例","开启一个事务。Transaction用于事务管理","一个Transaction对象对应的事务可以包含多个操作。在使用Hibernate进行增、删、改操作的时候","必须先创建Transaction对象。
+
+（5）利用Session接口通过的各种方法进行持久化操作。
+
+（6）提交事务。对实体对象持久化操作后","必须提交事务。
+
+（7）关闭Session","断开与数据库连接。
+
+291．	正确答案：与悲观锁相比","乐观锁（Optimistic Locking）通常认为许多事务同时操作同一个数据的情况很少发生","所以乐观锁不做数据库层次的锁定","而是基于数据版本（Version）标识实现应用程序级别上的锁定机制。这样既能够保证多个事务的并发操作","又能有效的防止第二类丢失更新的发生。
+
+292．	正确答案：Criteria是一个完全面向对象","可扩展的条件查询API","通过它完全不需要考虑数据库底层如何实现","以及SQL语句如何编写","它是Hibernate框架的核心查询对象。Criteria 查询","又称为QBC查询（Query By Criteria）","它是Hibernate的另一种对象检索方式。
+
+293．	正确答案：Hibernate的一级缓存有如下特点：
+
+ 1）当应用程序调用Session接口的save()、update()、saveOrUpdate时","如果Session缓存中没有相应的对象","Hibernate就会自动的把从数据库中查询到的相应对象信息加入到一级缓存中去。
+
+ 2）当调用Session接口的load()、get()方法","以及Query接口的list()、iterator()方法时","会判断缓存中是否存在该对象","有则返回","不会查询数据库","如果缓存中没有要查询对象","再去数据库中查询对应对象","并添加到一级缓存中。
+
+ 3）当调用Session的close()方法时","Session缓存会被清空。
+
+ 4）Session 能够在某些时间点","按照缓存中对象的变化","执行相关的 SQL 语句来同步更新数据库"," 这一过程被称为刷出缓存(flush)。
+
+294．	正确答案：改变Struts默认主题的方式有2种","通常通过设置常量struts.ui.theme来改变默认主题","具体做法是在struts.xml或者struts.properties文件中增加相应的配置。比如想要设置使用simple的主题","那么需要在struts.xml中增加如下配置：
+
+<constant name="struts.ui.theme" value="simple"/>
+
+或者在struts.properties文件中增加如下配置：
+
+struts.ui.theme = simple
+
+

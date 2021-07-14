@@ -1,0 +1,1917 @@
+1	事务隔离级别是谁实现的？（）
+A、Java应用程序
+B、Hibernate
+C、数据库系统
+D、JDBC驱动程序
+2	下列关于默认拦截器的描述，错误的是（   ）
+A、拦截器栈不能作为默认拦截器
+B、默认拦截器需要使用<default-interceptor-ref>元素
+C、默认拦截器可以对其指定的包中，所有的Action都能起到拦截的作用
+D、每一个包下只能定义一个默认拦截器
+3	下列操作对一级缓存的影响描述错误的是（）
+A、执行delete操作时，如果对象不具有OID，将抛出异常
+B、执行update操作时，如果对象不具有OID，将抛出异常
+C、执行update操作时，如果一级缓存中已经存在有相同OID数据，将抛出异常
+D、执行merge操作时，如果一级缓存中已经存在有相同OID数据，将抛出异常
+4	下列表单标签中，可以包含其他标签的是（   ）
+A、<s:submit>
+B、<s:form>
+C、<s:password>
+D、<s:reset>
+5	在hibernate中，要想在删除某个客户数据的同时删除该客户对应得所有订单数据，下列方法可行的有（）
+A、配置客户和订单关联的cascade属性为save-update
+B、配置客户和订单关联的cascade属性为all
+C、设置多对一关联的inverse属性为true
+D、设置多对一关联的inverse属性为false
+6	于Struts2的以下配置内容应该在哪个配置文件中编写（）
+<filter>
+<filter-name>struts2</filter-name>
+<filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAdnExecuteFilter </filter-class> </filter>
+<filter-mapping>
+<filter-name>struts2</filter-name>
+<url-pattern>/*</utl-pattern>
+</filter-mapping>
+A、struts-default.xml
+B、struts.xml
+C、web.xml
+D、ter.xml
+7	下列标签中，用于输出指定的值的是（   ）
+A、<s:property>
+B、<s:include>
+C、<s:param>
+D、<s:form>
+8	在三层结构中，数据访问层承担的责任是
+A、定义实体类
+B、数据的增删改查操作
+C、业务逻辑的描述
+D、页面展示和控制转发
+9	在<action>元素中,哪个属性可以指定Action中要执行的方法的名称？（）
+A、method
+B、name
+C、class
+D、methodName
+10	下列关于Struts2标签库的描述，错误的是（   ）
+A、使用标签库中的标签有利于代码的可维护性和可读性
+B、UI标签是以丰富而可复用的HTML文件来显示数据
+C、普通标签又分为表单标签和数据标签
+D、Struts2标签库主要分为普通标签和UI标签
+11	在以下这段配置中
+<package name="demo4" extends="struts-default" namespace="/">
+<action name="user_*" class="cn.itcast.struts2.demo4.UserAction" method="{1}"></action>
+</package>
+想要执行UserAction中的add方法,在页面中的访问路径应该是（）
+A、/user_add.action
+B、/demo4/user_add.action
+C、/demo4/user.action?method=add
+D、/user.action?method=add
+12	ORM是（）
+A、对象关系映射
+B、对象实体映射
+C、数据传输对象
+D、数据访问对象
+13	不属于struts2表单标签库的是（）
+A、<s:textfield>
+B、<s:textare>
+C、<s:submit>
+D、<select>
+14	下列事务特性中，表示将事务中所做的操作捆绑成一个不可分割的单元的是（   ）
+A、隔离性
+B、持久性
+C、一致性
+D、原子性
+15	下列有关<s:iterator>标签属性的描述，错误的是（   ）
+A、step属性的默认值为0
+B、step属性指定了每一次迭代后索引增加的值
+C、begin属性指定了迭代数组或集合的起始位置
+D、begin属性的默认值为0
+16	下列哪个不是struts-2.3.24版本导入相关的JAR包？（）
+A、struts2-core-2.3.24.jar
+B、xwork-core-2.3.24.jar
+C、commons-logging-1.2.jar
+D、log4j-core-2.2.jar
+17	下列选项中，只用于在目标方法执行前实施增强的是（   ）
+A、前置通知
+B、后置通知
+C、异常抛出通知
+D、环绕通知
+18	下列哪个常量用来配置Action的扩展名？（）
+A、struts.i18n.encoding
+B、struts.action.extension
+C、struts.serve.static.browserCache
+D、struts.devMode
+19	下列有关<s:select>标签属性的描述中，错误的是（   ）
+A、multiple属性值默认为false
+B、size属性可以让下拉框同时显示多个值
+C、headerKey和headerValue属性能用于在所有的真实选项之前加一项作为标题项
+D、headerKey和headerValue属性需要同时使用
+20	struts2中使用动态方法访问,需要打开哪个常量？（）
+A、<constantname="struts.action.extension"value="action"/>
+B、<constantname="struts.devMode"value="true"/>
+C、<constantname="struts.enable.DynamicMethodInvocation"value="true"/>
+D、<constantname="struts.custom.i18n.resources"value="msg"/>
+21	对于HQL中的as关键字，下列说法正确的是（）
+A、必须要有
+B、必须没有
+C、可以有，也可以没有
+D、以上说法均不正确
+22	下列有关拦截器的描述，错误的是（   ）
+A、拦截器可以动态拦截Action调用的对象
+B、对应各个功能的拦截器按照一定的顺序排列在一起形成拦截器链
+C、拦截器只能在一个Action执行前进行拦截
+D、拦截器链组成的集合是拦截器栈
+23	在JSP页面中可以通过struts2提供的（）标签来输出信息。
+A、<s:input>
+B、<s:texts>
+C、<s:submit>
+D、<s:text>
+24	下列有关<s:reset>标签的描述，错误的是（   ）
+A、<s:reset>标签用来创建一个重置按钮
+B、<s:reset>标签会生成HTML中的<inputtype="reset"/>标签
+C、<s:reset>标签的value属性用于显示按钮的值
+D、<s:reset>标签的常用属性为id和value
+25	在解压后的Struts2.3.24的安装目录结构中，用于存放源代码的文件夹是（   ）
+A、apps
+B、docs
+C、src
+D、lib
+26	下列选项中，不输于OGNL结构3要素的是（   ）
+A、表达式
+B、上下文环境
+C、集合对象
+D、根对象
+27	Hibernate中实体类对象的状态不包括（）
+A、瞬时状态
+B、持久状态
+C、查询状态
+D、游离状态
+28	下列有关文件上传的描述，错误的是（   ）
+A、文件上传需要用到<s:file>标签
+B、文件上传时表单的method属性必须设置成get提交方式
+C、文件上传需将form表单的enctype属性值设置为multipart/form-data
+D、文件上传是指将本地文件上传到服务器的指定目录下
+29	下列选项中，不属于<action>元素属性的是（   ）
+A、class
+B、method
+C、namespace
+D、converter
+30	OID生成策略不包含下列哪种？（）
+A、assigned
+B、auto
+C、native
+D、identity
+31	在<action>中没有配置method的属性,那么会默认执行Action中的哪个方法？（）
+A、execute()
+B、exec()
+C、doGet()
+D、service()
+32	下列有关自定义拦截器的描述，错误的是（   ）
+A、如果需要开发自己的拦截器类，就需要直接或间接的实现Interceptor接口
+B、继承抽象拦截器类AbstractIntercepter也可以自定义拦截器
+C、Struts2的内置拦截器可以完成大部分的拦截任务，因此不推荐自定义拦截器
+D、与实现Interceptor接口相比，继承AbstractInterceptor类进行自定义拦截器的方法更为简单
+33	执行以下HQL语句，执行查询后查询结果的返回值说法正确的是（）
+SELECT username,userid from User
+A、语法错误，不能执行
+B、返回一个List的实例，List中存放Object对象
+C、返回一个List的实例，List中存放Object数组对象
+D、当返回结果只有一条时，返回一个数组
+34	当类型转换失败时，Struts2会自动跳转到（）结果。
+A、error
+B、success
+C、login
+D、input
+35	下列关于<include>元素的描述中，错误的是（   ）
+A、每一个被包含的配置文件都是标准的Struts2配置文件
+B、配置<include>元素时，需指定一个必选的file属性
+C、每一个被包含的配置文件不需再包含DTD信息、Struts2配置文件的根元素等信息
+D、<include>元素进行包含配置体现的是软件工程中的"分而治之"原则
+36	在应用myapp下,有如下一段配置
+<package name=”demo1” extends=”struts-default” namespace=”/user”>
+<action name=”hello” class=”cn.itcast.action.HelloAction”>
+...
+</action>
+</package>
+那么访问这个Action的正确的路径是（）
+A、/myapp/demo1/user/hello.action
+B、/myapp/demo1/user.action
+C、/myapp/user/hello.action
+D、/myapp/hello.action
+37	请看代码
+form.jsp
+<s:form action=”myAction” namespace=”/” theme=”simple”>
+用户名：<s:textfield name=”user.username” /><br/>
+密码：<s:password name=”user.password” /><br/>
+<s:submit value=”提交”/>
+</s:form>
+struts.xml
+<package name=”xxx” namespace=”/” extends=”struts-default”>
+<action name=”myAction” class=”cn.itcast.web.action.MyAction”/>
+</package>
+User.java
+public class User {
+private String username;
+private String password;
+public void setUsername(String username) {
+this. username = username;
+}
+public void setPassword(String password) {
+this. password = password;
+}
+}
+MyAction.java
+package cn.itcast.web.action;
+public class MyAction extends ActionSupport {
+private User user = new User();
+public void setUser(User user) {
+this.user = user;
+}
+public User getUser() {
+return user;
+}
+public String execute() {
+System.out.println(user.getUsername() + “, “ + user.getPassword());
+return null;
+}
+}
+当在form.jsp表单中，向用户名中输入zhangSan，向密码中输入123后提交，控制台会有什么样的输出结果？（）
+A、null,null
+B、zhangSan,123
+C、zhangSan,null
+D、null,zhangSan
+38	下列选项中，不属于<s:form>标签属性的是（   ）
+A、action
+B、namespace
+C、class
+D、enctype
+39	Struts2框架的核心是（）
+A、xwork
+B、Struts1
+C、Servlet
+D、JSP
+40	下列有关Spring框架的描述，错误的是（   ）
+A、Spring是JavaWeb开发框架
+B、Spring是轻量级框架
+C、Spring是开源框架
+D、Spring是持久层框架
+41	下列选项中，不属于Spring框架优点的是（   ）
+A、提供强大的、可以有效减少页面代码的标签
+B、声明式事务的支持
+C、方便解耦、简化开发
+D、方便集成各种优秀框架
+42	在HQL语句的参数查询中，执行以下代码，下列选项能够为参数正确赋值的操作是（）
+Query query = s.createQuery("from Customer o where o.name=?");
+A、query.setParameter(1, "Tom");
+B、query.setParameter(0, "Tom");
+C、query.setString(0,Tom);
+D、query.setInteger (0,Tom);
+43	以下方法不是Session接口用于进行增删改操作的是（）
+A、save(Objectobj)
+B、update(Objectobj)
+C、delete(Objectobj)
+D、load(Classclazz,Serializableuuid)
+44	在Hibernate的ORM映射文件中包含：<class name=”cn.User” table=”user”>,这一句中table属性的作用是（）
+A、指定表名
+B、指定类名
+C、指定数据库名
+D、指定ORM映射文件名
+45	在Action接口中提供的5个逻辑视图代表表单输入错误会跳转的视图名称是（）
+A、SUCCESS
+B、ERROR
+C、INPUT
+D、LOGIN
+46	下列关于package元素常用属性的描述，错误的是（   ）
+A、name用于指定该包的名字
+B、namespace属性定义该包的命名空间
+C、extends属性指定该包继承自其他包
+D、abstract属性的值为false时，说明该包中不能包含Action定义
+47	下列有关Struts2 内置主题的描述，错误的是（   ）
+A、xhtml为默认主题
+B、Struts默认主题是由Struts框架固定的，不可进行修改
+C、xhtml主题有一定的局限性，难以胜任复杂的页面布局
+D、css_xhtml主题是对xhtml的扩展，在xhtml的基础之上添加对CSS的支持和控制
+48	在cn.itcast.action.demo1包下有一个配置文件struts_demo1.xml.以下哪种方式可以引入该配置文件到struts.xml中？（）
+A、<include file="cn/itcast/action/demo1/struts_demo1.xml"/>
+B、<include file="cn.itcast.action.demo1.struts_demo1.xml"/>
+C、<include file="struts_demo1.xml"/>
+D、无法引入
+49	下列有关Hibernate中核心接口Session的描述，错误的是（   ）
+A、Session是线程安全的
+B、多个并发线程同时操作一个Session实例时，可能导致Session数据存取的混乱
+C、通过SessionFactory实例的openSession()方法可以获取Session实例
+D、通过SessionFactory实例的getCurrentSession()方法可以获取Session实例
+50	下列哪个接口用于执行原生SQL？（）
+A、SQLQuery
+B、Session
+C、List
+D、Query
+51	下列有关<s:checkboxlist>标签的描述，错误的是（   ）
+A、<s:checkboxlist>标签用于一次性创建多个复选框
+B、一个JSP文件中，用户只能创建一个<s:checkboxlist>标签
+C、<s:checkboxlist>标签用来产生一组<inputtype="checkbox"/>标签
+D、listValue属性用于生成checkbox后面显示的文字
+52	下列有关事务隔离级别的描述，错误的是（   ）
+A、事务的隔离级别越高，越能保证数据库的完整性和一致性
+B、事务的隔离级别越高，并发时对性能的影响也越大
+C、事务的隔离级别越高越好
+D、序列化是事务隔离级别中最高的
+53	下列关于拦截器的配置的描述，错误的是（   ）
+A、在定义拦截器时不可以传入参数
+B、拦截器的配置是在struts.xml文件中完成的
+C、要想让拦截器起作用，需先对它进行配置
+D、拦截器的配置是通过<interceptor>标签进行的
+54	在struts2配置中用（）元素配置常量。
+A、<action>
+B、<package>
+C、<constant>
+D、<include>
+55	Hibernate级联保存集合中的对象，casecade属性应该取什么值（）
+A、none
+B、save
+C、delete
+D、save-update
+56	以下哪个标签是struts2中用于循环迭代的 。（）
+A、<s:property>
+B、<s:iterator>
+C、<s:logic>
+D、<s:foreach>
+57	在hibernate中，当cascade属性值为（）时，标识不进行级联操作。
+A、all
+B、no
+C、none
+D、delete
+58	以下HQL语句书写语法格式错误的是（）
+A、select um.userName from UserModel
+B、select userName from UserModel um
+C、select userName from UserModel as um
+D、from UserModel um
+59	下列有关Hibernate框架的描述，错误的是（   ）
+A、Hibernate对JDBC进行了轻量级的对象封装
+B、Hibernate是一个付费才可以使用的框架
+C、Hibernate是一个持久化框架
+D、Hibernate使得Java开发人员可以使用面向对象的编程思想来操作数据库
+60	下列获取ApplicationContext对象正确的是（）
+A、ApplicationContext ctx = new ClassPathXmlApplicationContext();
+B、ApplicationContext ctx = new ApplicationContext("配置文件名");
+C、ApplicationContext ctx = new ClassPathXmlApplicationContext("配置文件名");
+D、ApplicationContext ctx = new FileSystemXmlApplicationContext();
+61	下列有关package元素中的extends属性的描述，错误的是（   ）
+A、extends属性是可选属性
+B、一个package元素中的extends属性可以出现多次
+C、extends属性一次可以继承多个包，中间用逗号隔开
+D、extends属性指定该包继承自其他包
+62	下列哪项不是用于配置数据库连接的配置？（）
+A、hibernate.connection.url
+B、hibernate.connection.username
+C、hibernate.show_sql
+D、hibernate.connection.password
+63	下列有关<result>元素属性的描述，错误的是（   ）
+A、<result>元素可以有name和type属性
+B、<result>元素中的name属性是必选属性
+C、type属性用于指定返回的视图资源的类型
+D、type属性的默认值是dispatcher
+64	在hibernate的HQL查询中，下列说法不正确的是（）
+A、HQL子句本身的大小写没有差别，但类名和属性名必须区分大小写。
+B、HQL支持where子句。
+C、HQL支持as子句。
+D、where、as关键字区分大小写。
+65	下列常量中，用于在execute()方法中返回，表示执行成功并返回结果页面的是（   ）。
+A、INPUT
+B、LOGIN
+C、NONE
+D、SUCCESS
+66	使用Struts2.3.24版本的项目所依赖的基础JAR包的个数是（   ）
+A、11
+B、12
+C、13
+D、14
+67	Struts2中默认的配置文件名称是（）
+A、struts.xml
+B、struts2.xml
+C、struts-config.xml
+D、xwork.xml
+68	下列关于Struts2标签的使用的描述，错误的是（   ）
+A、在JSP文件使用taglib指令导入Struts2标签库
+B、taglib指令的uri属性用于指定引入标签库描述符文件的URI
+C、prefix属性指定的前缀为空时默认为"s"
+D、taglib指令的prefix属性用于指定引入标签库描述符文件的前缀
+69	不属于Action接口中定义的字符串常量的是（）
+A、SUCCESS
+B、FAILURE
+C、ERROR
+D、INPUT
+70	下列JdbcTemplate类的常用方法中，可以完成插入、更新和删除操作的是（   ）
+A、update()
+B、execute()
+C、query()
+D、delete()
+71	下列选项中是Struts2的核心配置文件的是（）
+A、struts2.xml
+B、web.xml
+C、struts.xml
+D、struts.properties
+72	下列Restrictions类的静态方法中，用于表示大于等于的是（   ）
+A、Restrictions.le
+B、Restrictions.lt
+C、Restrictions.ge
+D、Restrictions.eq
+73	struts2动态方法调用的格式为（）
+A、ActionName?methodName.action
+B、ActionName!methodName.action
+C、ActionName*methodName.action
+D、ActionName@mathodName.action
+74	下面代码执行结果是（）
+在action中进行如下操作：
+ActionContext.getContext().put(“itcast”,”传智播客”);
+重定向到jsp页面后，在jsp页面使用标签
+<s:property value=”#itcast”>#
+<s:property value=”itcast”>#
+<s:property value=”#request.itcast”>#
+A、传智播客###
+B、传智播客#传智播客##
+C、传智播客#传智播客#传智播客#
+D、###
+75	在一般Web开发中，添加JAR包时只需将其复制到Web项目的（   ）路径下即可。
+A、src
+B、WEB-INF/lib
+C、WebContent
+D、WEB-INF
+76	如果要实现struts2的数据检验功能（）
+A、普通的Action类可以实现
+B、继承自Action接口的可以实现
+C、继承自ActionSupport类可以实现
+D、继承自ActionValidate类可以实现
+77	Customer类中有一个Set类型的orders属性，用来存放Order订单对象，在Customer.hbm.xml文件中，用哪个元素映射orders属性？（）
+A、<set>
+B、<ont-to-many>
+C、<many-to-one>
+D、<property>
+78	以下有关struts.xml文件描述正确的是（）
+A、struts.xml文件默认放置在src目录下
+B、struts.xml文件中只能配置一个package
+C、struts.xml文件可以放置在WEB-INF目录下
+D、struts.xml文件名称可以自定义，只要以struts开头就可以
+79	下列Hibernate的检索方式中，属于官方推荐的查询方式的是（   ）
+A、HQL检索方式
+B、OID检索方式
+C、QBC检索方式
+D、SQL检索方式
+80	下列有关AOP专业术语中，用于指那些被拦截到的点的是（   ）
+A、Joinpoint
+B、Pointcut
+C、Aspect
+D、Advice
+81	下列有关<s:optgroup>标签的描述，错误的是（   ）
+A、<s:optgroup>标签经常与<s:select>标签联用
+B、<s:optgroup>标签的label属性表示选项组的组名
+C、<s:optgroup>标签用来生成选项组
+D、<s:select>标签不能包含多个<s:optgroup>标签
+82	下面创建Criteria对象的语句中正确的是（）
+A、Criteria c = query.createCriteria();
+B、Criteria c = query.addCriteria();
+C、Criteria c = session.createCriteria();
+D、Criteria c = session.createCriteria(User.class);
+83	下面创建Criteria对象的语句中正确的是（）
+A、Criteria c = query.createCriteria();
+B、Criteria c = query.addCriteria();
+C、Criteria c = session.createCriteria();
+D、Criteria c = session.createCriteria(User.class);
+84	基于Annotation的声明式AspectJ中，用于定义一个切面的是（   ）
+A、@AspectJ
+B、@Before
+C、@AfterReturning
+D、@Around
+85	有关Hibernate属性映射语法错误的是（）
+A、<propertyname="age"/>
+B、<propertycolumn="age"/>
+C、<propertyname="address"column="addr"/>
+D、<propertyname="usreName"column="userName"></property>
+86	下列有关Hibernate中乐观锁的描述，错误的是（   ）
+A、乐观锁是基于数据版本（Version）标识实现应用程序级别上的锁定机制
+B、乐观锁一般由数据库来实现
+C、使用乐观锁时，需在*.hbm.xml映射文件中增加一个version标签元素
+D、<version>标签必须位于<id>标签之下，否则文件会报错
+87	下列哪个结果类型用来转发到Action？（）
+A、dispatcher
+B、chain
+C、redirectAction
+D、stream
+88	Spring事务管理的核心接口中，表示事务定义对象的接口是（   ）
+A、TransactionDefinition
+B、PlatformTransactionManager
+C、TransactionStatus
+D、TransactionProxyFactoryBean
+89	QBC查询可以用于完成等于关系的短语是（）
+A、Restrictions.equals
+B、Restrictions.eq
+C、Restrictions.le
+D、Restrictions.ge
+90	在Hibernate中，inverse属性值为（）时，会标识被控方。
+A、all
+B、false
+C、true
+D、none
+91	HIBERNATE的对象状态不包含下列哪一种？（）
+A、瞬时状态
+B、持久化状态
+C、约束状态
+D、托管状态
+92	下列事务的隔离级别中，从低到高的排序正确的是（   ）
+①读未提交 ②序列化 ③可重复读取 ④读已提交
+A、①②③④
+B、①③②④
+C、①④③②
+D、①③④②
+93	下列标签中，用于查看ValueStack中信息的是（   ）
+A、<s:include>
+B、<s:debug>
+C、<s:submit>
+D、<s:param>
+94	在struts2的action类中有一个User类型属性user，并且提供了user的getter和setter方法。该User中有一个属性username，并且提供了该属性的getter和setter方法，
+以下表单提交,username可以获取到值的是（）
+A、<form><inputname="username"/>
+B、<form><inputname="user.username"/>
+C、<form><inputname="#user.username"/>
+D、<form><inputname="user#username"/>
+95	下列有关<s:checkbox>标签的描述，错误的是（   ）
+A、value属性的值为"true"，其选中框为选中状态
+B、value属性值是一个"假值"，用来表示复选框是否被选中
+C、默认情况下value的值为"true"
+D、默认情况下选中框为不选中状态
+96	下列Hibernate映射配置文件命名不正确的是（）
+A、user.properties
+B、user.hbm.xml
+C、User.hbm.xml
+D、UserModel.hbm.xml
+97	下列有关Struts2框架优势的描述，错误的是（   ）
+A、易扩展
+B、项目开源
+C、提供了强大的的标签
+D、与ServletAPI关联度高
+98	下面关于单例bean的生命周期的执行顺序，哪个在最后执行（）
+A、bean对象实例化
+B、调用<beaninit-method="userInitMethod">指定初始化方法userInitMethod
+C、执行用户的自定义业务方法
+D、调用<beandestroy-method="userDestroyMethod">指定销毁方法userDestroyMethod
+99	以下哪个不属于Session的方法？（）
+A、save()
+B、delete()
+C、update()
+D、open()
+100	下列有关<s:property>标签中的属性的描述，错误的是（   ）
+A、id属性是必选属性，用于指定该元素的标识
+B、如果要输出的属性值为null，则显示default属性的指定值
+C、escape属性用于指定是否忽略HTML代码
+D、value属性用于指定需要输出的属性值
+101	下列有关，表单回显正确的是（）
+A、只要将数据放置到request作用域，struts表单标签可以根据name属性进行回显
+B、只要将数据放置到session作用域，struts表单标签可以根据name属性进行回显
+C、只要将数据放置到application作用域，struts表单标签可以根据name属性进行回显
+D、只要将数据放置到对象栈root中，struts表单标签可以根据name属性进行回显
+102	以下哪种注解格式可以定义Bean？（）
+A、@Component
+B、@Autowire
+C、@Value
+D、@Qualifier
+103	下列代码用于完成查询操作，错误的是（）
+Configuration conf = new Configuration().configure();
+SessionFactory sf = conf.buildSessionFactory();
+Session s = sf.getSession();
+A、s.createQuery("from UserModel");
+B、s.createCriteria(UserModel.class);
+C、s.createDetachedCriteria(UserModel.class);
+D、s.createSQLQuery("select * from tbl_user");
+104	下列Struts2标签中，不属于表单标签的是（   ）
+A、<s:reset>
+B、<s:debug>
+C、<s:password>
+D、<s:checkbox>
+105	下列有关Hibernate持久化类编写规则的描述，错误的是（   ）
+A、持久化类属性应尽量使用基本数据类型
+B、必须提供标识属性OID
+C、持久化类中所有属性使用private修饰
+D、持久化类中必须提供默认或者手动编写的无参数public构造器
+106	下列关于<s:iterator>标签的描述，正确的是（   ）
+A、<s:iterator>标签主要用于对集合中的数据进行迭代
+B、<s:iterator>标签不能对数组进行遍历
+C、<s:iterator>标签必须与<s:if>标签结合使用
+D、<s:iterator>标签只能对集合进行遍历
+107	完成按用户名进行查询，程序片段如下：
+String hql = "from UserModel where userName = ?";
+Query q = s.createQuery();
+q.________(0,”value”);
+空白处应该填写的内容为（）
+A、set
+B、get
+C、setParameter
+D、getParameter
+108	在Hibernate中，从性能方面考虑，inverse属性值通常设置为（）
+A、all
+B、false
+C、true
+D、none
+109	下列选项中，不属于Spring中实例化Bean的方式的是（   ）
+A、构造器实例化
+B、静态工厂方式实例化
+C、实例工厂方式实例化
+D、抽象方法实例化
+110	在Hibernate中，<set>元素有个cascade属性，如果希望Hibernate级联保存集合中的对象，cascade属性应该取什么值（）
+A、none
+B、save
+C、delete
+D、save-update
+111	在hibernate的HQL查询中，下列说法不正确的是（）
+A、在hibernate3中，可以使用update、delete子句。
+B、在hibernate3中，不可以使用update、delete子句。
+C、HQL是基于SQL的。
+D、HQL提供了更多面向对象的封装。
+112	下列有关Hibernate中持久化对象的状态的描述，正确的是（   ）
+A、状态可以划分为瞬时态、持久态和脱管态三种
+B、一个持久化类的实例可能同时处于三种不同状态中
+C、当某个持久化状态的实例与Session的关联被关闭时就变成了瞬时态
+D、持久态对象是在事务提交后变成持久态的
+113	下列关于Action控制类中execute()方法要求的描述，错误的是（   ）
+A、为静态方法
+B、方法的权限修饰符为public
+C、返回一个字符串
+D、方法没有参数
+114	在struts.xml文件中，用于定义包配置的元素是（   ）
+A、<struts>
+B、<constant>
+C、<include>
+D、<package>
+115	在web.xml文件中，filter-mapping标签用来配置的是（   ）。
+A、核心过滤器
+B、过滤器的映射
+C、请求URL
+D、Servlet
+116	在hibernate的HQL查询中，setMaxResults(3)方法中参数值3指的是（）
+A、从第3条记录开始
+B、从第4条记录开始
+C、查询3条记录
+D、查询4条记录
+117	下列有关Struts2预定义结果类型的描述，错误的是（   ）
+A、redirect是默认的结果类型
+B、redirectAction重定向到一个Action，跳转的页面中丢失传递的信息
+C、dispatcher用来转向页面，通常处理JSP
+D、chain用来处理Action链，被跳转的Action中仍能获取上个页面的值，如request信息
+118	下列Struts2提供的主题中，属于默认主题的是（   ）
+A、simple
+B、css_xhtml
+C、Ajax
+D、xhtml
+119	完成查询用户表中的信息总量，程序片段如下:
+String hql = "select count(uuid) from UserModel";
+Query q = s.createQuery(hql);
+________ count = s.uniqueResult();
+空白处应该填写的内容为（）
+A、Integer
+B、Long
+C、Float
+D、Double
+120	下列选项中，用于创建一个密码输入框的是（   ）
+A、<s:reset>
+B、<s:radio>
+C、<s:password>
+D、<s:checkbox>
+121	下列选项中，不属于Struts2标签库中逻辑控制标签的是（   ）
+A、<s:if>
+B、<s:elseif>
+C、<s:property>
+D、<s:iterator>
+122	下列有关HQL语句指定别名的描述，错误的是（   ）
+A、在HQL语句中也可以使用别名
+B、别名使用关键字as指定
+C、指定别名时as关键字可以省略
+D、在HQL语句中不能使用别名
+123	下列选项中，不属于Spring通知类型的是（   ）
+A、前置通知
+B、后置通知
+C、中置通知
+D、环绕通知
+124	下列选项中，不属于Hibernate技术优势的是（   ）
+A、对JDBC访问数据库的代码做了轻量级封装
+B、很大程度的简化了dao（DataAccessObject，数据访问对象）层编码工作
+C、性能非常好、映射的灵活性很出色
+D、提供标准、强大的验证框架和国际化框架
+125	删除某个客户数据的同时删除该客户对应的所有订单数据，下面方法可行的是（）
+A、配置客户和订单关联的cascade属性为save-update
+B、配置客户和订单关联的cascade属性为delete
+C、配置客户和订单关联的cascade属性为delete-orphan
+D、配置客户和订单关联的inverse属性为true
+126	下列选项中，不属于Struts2常量配置方式之一的是（   ）
+A、在struts.xml文件中使用<constant>元素配置常量
+B、在struts.properties文件中配置常量
+C、在Action类中通过定义并配置常量
+D、在web.xml文件中通过<init-param>元素配置常量
+127	下列有关Hibernate一级缓存的描述，错误的是（   ）
+A、一级缓存是Session级别的缓存
+B、一级缓是一个可插拔的缓存插件
+C、一级缓存一般情况下无需进行干预
+D、一级缓存由Hibernate管理
+128	下列Restrictions类的静态方法中，用于表示小于的是（   ）
+A、Restrictions.le
+B、Restrictions.lt
+C、Restrictions.ge
+D、Restrictions.eq
+129	在Struts2框架中,先后在struts.xml中、struts.properties中和web.xml中来修改struts的同一个常量，在哪个配置文件中的修改会最终生效。（）
+A、struts.xml
+B、struts.properties
+C、web.xml
+D、都不会生效
+130	通过构造函数依赖注入，使用<constructor-arg index="1">，其中index="1"表示（）
+A、按照参数的类型，其中1表示String类型
+B、按照参数的类型，其中1表示int类型
+C、按照参数的顺序，其中1表示第二个参数
+D、按照参数的顺序，其中1表示第一个参数
+131	下列有关值栈的描述，错误的是（   ）
+A、值栈封装了一个应用程序所有请求所需的数据
+B、Struts2是在有请求到达的时候为每个请求创建一个新的值栈
+C、值栈是OGNL表达式存取数据的地方
+D、值栈和请求是一一对应的
+132	在hibernate的Criteria查询中，查询5条记录的方法是（）
+A、criteria.setFirstResult(4);
+B、criteria.setFirstResult(5);
+C、criteria.setMaxResult(4);
+D、criteria.setMaxResult(5);
+133	下列有关Bean的作用域的描述，错误的是（   ）
+A、singleton是Spring容器默认的作用域
+B、使用singleton定义的bean在Spring容器中将只有一个实例
+C、使用request定义的Bean时，在一次HTTP请求中容器会返回该Bean的同一个实例
+D、每次通过Spring容器获取的singleton定义的Bean时，容器都将创建一个新的Bean实例
+134	下列有关OGNL的描述，错误的是（   ）
+A、OGNL支持赋值操作和表达式串联
+B、OGNL不是开源的表达式语言
+C、OGNL可以操作集合对象
+D、OGNL支持类静态方法调用和值访问
+135	下列有关持久化对象状态转换的描述，错误的是（   ）
+A、脱管态不能转换为瞬时态
+B、通过为瞬时态对象设置OID，可以将瞬时态转换为脱管态
+C、执行Session的evict()、close()或clear()方法可以将持久态转换为脱管态
+D、执行Session的update()、saveOrUpdate()或lock()方法可以将脱管态转换为持久态
+136	下列有关Struts2的表单标签的描述，错误的是（   ）
+A、<s:checkbox>标签用于创建复选框
+B、<s:radio>标签用于创建单选按钮
+C、<s:password>标签用于创建一个密码输入框
+D、<s:textarea>标签用于创建单行文本框
+137	在hibernate的Criteria查询中，从第5条记录开始查询的方法是（）
+A、criteria.setFirstResult(4);
+B、criteria.setFirstResult(5);
+C、criteria.setMaxResult(4);
+D、criteria.setMaxResult(5);
+138	下列Struts2标签中，用于一次性创建多个复选框的是（   ）
+A、<s:checkboxlist>
+B、<s:checkbox>
+C、<s:select>
+D、<s:textarea>
+139	在Hibernate中对事务进行配置时，其中hibernate.connection.isolation参数用来配置事务的隔离级别，下列整数中表示用于读未提交的是（   ）
+A、8
+B、4
+C、2
+D、1
+140	下列有关Hibernate中核心接口Transaction的描述，错误的是（   ）
+A、Transaction接口主要用于管理事务
+B、Transaction是Hibernate的数据库事务接口，且对底层的事务接口进行了封装
+C、Session执行完数据库操作后，事务将自动提交
+D、Transaction接口中提供了一个wasCommitted()方法，用于检查事务是否提交
+141	在OGNL操作符的使用是。
+A、取出符合选择逻辑的第一个元素。
+B、取出符合选择逻辑的最后一个元素。
+C、取出符合选择逻辑的所有元素。
+D、以上说法都不对。
+142	下列选项中，符合数据库中多表之间一对一关系的是（   ）
+A、学生和课程
+B、客户和订单
+C、身份证号和公民
+D、学生和班级
+143	下列有关AOP专业术语中，用于表示被拦截的连接点的是（   ）
+A、Joinpoint
+B、Pointcut
+C、Aspect
+D、Advice
+144	下列选项中，属于Struts2.3.24版本核心过滤器类的是（   ）
+A、StrutsPrepareAndExecuteFilter
+B、StrutsPrepareAndDispatcherFilter
+C、FilterDispatcher
+D、StrutsFilter
+145	struts2中，以下配置文件上传拦截器只允许上传bmp图片文件的代码，正确的是（）
+A、<paramname=”allowedTypes”>image/bmp</param>
+B、<paramname=”allowedTypes”>*.bmp</param>
+C、<paramname=”allowedTypes”>bmp</param>
+D、<paramname=”allowedTypes”>image/*.bmp</param>
+146	下列关于<action>元素中属性的描述，错误的是（   ）
+A、在配置action元素时，如果没有指定class属性值，则其默认值为com.opensymphony;.xwork2.ActionSupport类
+B、如果不指定method属性，则Action会调用execute()方法
+C、在配置action元素时，需指定class属性值，否则程序启动会报错
+D、method属性用于指定请求Action时调用的方法
+147	spring的配置文件中，使用 <property name="age"></property>，对age的属性注入20应该使用（）
+A、ref="20"
+B、value="20"
+C、value=20
+D、values="20"
+148	下列选项中，不属于依赖注入实现方式的是（   ）
+A、接口注入
+B、抽象类注入
+C、setter方法注入
+D、构造方法注入
+149	下列JdbcTemplate类的常用方法中，能够完成执行SQL语句功能的是（   ）
+A、update()
+B、execute()
+C、query()
+D、delete()
+150	下列有关<s:reset>标签作用的描述，正确的是（   ）
+A、用来创建一个重置按钮
+B、用来创建隐藏表单元素
+C、用来创建一个文件选择框
+D、用来创建一个单行文本框
+151	在hibernate的HQL查询中，setFirstResult(3)方法中参数值3值的是（）
+A、从第3条记录开始
+B、从第4条记录开始
+C、查询3条记录
+D、查询4条记录
+152	下列关于常量配置的描述，错误的是（   ）
+A、在struts.xml文件中通过<constant…/>元素来配置常量时，需要指定两个必填的属性name和value。
+B、struts.properties文件能配置的常量都可以在struts.xml文件中用<constant>元素来配置。
+C、struts.properties文件应存放于项目的src路径下
+D、在多个文件中配置了同一个Struts2常量，Struts2框架加载常量是有一定顺序的
+153	下列不是Struts2项目所依赖的基础JAR包是？（）
+A、asm-3.3.jar
+B、xwork-core-2.3.24.jar
+C、commons-io-2.2.jar
+D、antlr-2.7.6.jar
+154	以下属于struts2配置文件中的配置元素是（）
+A、<package>
+B、<action>
+C、<form-beans>
+D、<action-mappings>
+155	完成用户名与用户地址的查询，程序片段如下：
+String hql = "select userName,address from UserModel";
+Query q = s.createQuery(hql);
+List<___________> list = s.list();
+空白处可以填写的内容为（）
+A、Object
+B、String,String
+C、Object[]
+D、String[]
+156	关于struts2的配置文件描述正确的是（）
+A、必须在WEB-INF目录下
+B、名字必须为struts.xml
+C、配置Action时，必须配置<package>
+D、使用<forward>元素配置转发
+157	下列关于<action>元素属性的描述，正确有（   ）
+A、name指定了Action所处理的请求的URL
+B、method指定请求Action时调用的方法
+C、method是必选属性
+D、converter指定类型转换器的类
+158	下列有关OGNL的描述，正确的有（   ）
+A、OGNL的全称是对象图导航语言
+B、OGNL是一种功能强大的开源表达式语言
+C、OGNL支持对象方法调用，但是只能是静态方法
+D、OGNL可以存取Java对象的任意属性
+159	以下哪些是Action接口提供的返回值？（）
+A、success
+B、none
+C、error
+D、input
+160	下列有关<s:checkbox>标签的描述，正确的有（   ）（
+A、默认情况下选中框为选中状态
+B、value属性值是一个"假值"，用来表示复选框是否被选中
+C、默认情况下value的值为"false"
+D、value属性的值为"true"，其选中框为选中状态
+161	关于struts2哪些api是正确的？
+A、ServletActionContext.getRequest()可以获得HttpServletRequest
+B、ServletActionContext.getResponse()可以获得HttpServletResponse
+C、ServletActionContext.getServletContext()可以获得ServletContext
+D、ServletActionContext.getRequest().getSession()可以获得HttpSession
+162	下列关于<s:form>标签的描述，正确的有（   ）
+A、<s:form>元素中不可以包含其他表单元素
+B、<s:form>元素的action属性在指定提交时对应的action，需要.action后缀
+C、<s:form>标签用来呈现HTML语言中的表单元素
+D、在使用<s:form>标签时，一般会包含其它的表单元素
+163	以下属于struts2配置文件中的配置元素是（）
+A、<package>
+B、<action>
+C、<form-beans>
+D、<action-mappings>
+164	以下属于struts2标签的是（）
+A、Ajax标签
+B、数据访问标签
+C、logic标签
+D、bean标签
+165	以下关于定义Bean的作用域正确的是（）
+A、@Scope("all")
+B、@Scope("none")
+C、@Scope("singleton")
+D、@Scope("prototype")
+166	Struts2框架由下列哪些框架发展而来（   ）
+A、Hibernate
+B、Struts
+C、Spring
+D、WebWork
+167	以下实现Action控制类的正确方式的是（）
+A、pojo类
+B、继承ActionSupport类
+C、实现Action接口
+D、以上都不对
+168	下列选项中，属于事务四个隔离级别之一的有（   ）
+A、读未提交
+B、读已提交
+C、可重复读取
+D、序列化
+169	下列选项中，属于依赖注入实现方式的是（   ）
+A、接口注入
+B、构造方法注入
+C、setter方法注入
+D、抽象类注入
+170	下列有关<s:select>标签属性的描述中，正确的有（   ）
+A、headerKey和headerValue属性需要同时使用
+B、size属性可以让下拉框同时显示多个值
+C、multiple属性让用户同时选择多个值
+D、listKey和listValue属性能用于在所有的真实选项之前加一项作为标题项
+171	有关QBC查询短语，下列说法正确的是（）
+A、Restrictions.between表示范围比对
+B、Restrictions.eq表示等比对
+C、Restrictions.le表示小于等于比对
+D、Restrictions.ge表示大于等于比对
+172	下列哪些是属于Hibernate的查询方式？（）
+A、关联查询
+B、分页查询
+C、参数查询
+D、投影查询
+173	Struts2开发的应用由哪些组件构成？（）
+A、控制器组件
+B、业务组件
+C、模型组件
+D、视图组件
+174	下列有关值栈的描述，正确的有（   ）
+A、值栈是OGNL表达式存取数据的地方
+B、Struts2是在有请求到达的时候为每个请求创建一个新的值栈
+C、值栈和请求是一一对应的
+D、值栈封装了一次请求所需要的所有数据
+175	下列哪些是Spring3.2.2版本导入相关的JAR包？（）
+A、spring-core-3.2.2.RELEASE.jar
+B、log4j-1.2.17.jar
+C、commons-logging-1.2.jar
+D、spring-context-3.2.2.RELEASE.jar
+176	ServleteActionContext类用来获取Servlet API的方法有哪些？（）
+A、getRequest()
+B、getResponse()
+C、getSession()方法返回值类型为HttpSession
+D、getServletContext()
+177	下列选项中，属于Struts2常量配置方式的是（   ）
+A、在struts.xml文件中使用<constant>元素配置常量
+B、在struts.properties文件中配置常量
+C、在Action类中通过定义并配置常量
+D、在web.xml文件中通过<init-param>元素配置常量
+178	下列哪些是Hibernate版本导入相关的JAR包？（）
+A、jta-1.1.jar
+B、dom4j-1.6.1.jar
+C、commons-io.2.2.jar
+D、commons-logging-1.2.jar
+179	下列有关<s:property>标签中的属性的描述，正确的有（   ）
+A、id属性是必选属性，用于指定该元素的标识
+B、如果要输出的属性值为null，则显示default属性的指定值
+C、escape属性用于指定是否忽略HTML代码
+D、value属性用于指定需要输出的属性值
+180	下列哪些是Hibernate连接MySQL数据库相关配置？？（）
+A、<propertyname=”hibernate.dialect”>org.hibernate.dialect.MySQLDialect</property>
+B、<propertyname=”hibernate.connection.driver_class”>com.mysql.jdbc.Driver</property>
+C、<propertyname=”format_sql”>true</property>
+D、<propertyname=”hibernate.connection.username”>root</property>
+181	struts2 action类的编写，下列说法正确的是（）
+A、action类可以不继承任何类，不实现任何接口
+B、action类可以实现struts提供的接口Action
+C、action类可以继承ActionSupport
+D、action类中请求处理方法，必须是共有的，方法名称自定义，且没有参数。
+182	实现下列哪些接口可以让Action直接访问Servlet API?（）
+A、ServletRequestAware
+B、ServletResponseAware
+C、HttpSession
+D、ServletContextAware
+183	下列有关OGNL的表达式的描述，正确的有（   ）
+A、表达式是整个OGNL的核心
+B、OGNL会根据表达式去对象中取值
+C、表达式就是一个带有语法含义的字符串
+D、表达式规定了操作的类型和操作的内容
+184	下列关于Struts2标签库的描述，正确的有（   ）
+A、Struts2标签库主要分为普通标签和UI标签
+B、UI标签是以丰富而可复用的HTML文件来显示数据
+C、普通标签主要是在页面生成时控制执行的流程
+D、使用标签库中的标签有利于代码的可维护性和可读性
+185	以下哪种注解格式可以定义Bean？（）
+A、@Repository
+B、@Service
+C、@Controller
+D、@Component
+186	有关HIBERNATE瞬时对象状态说法错误的是（）
+A、瞬时状态的对象具有OID，与SESSION对象关联
+B、瞬时状态的对象具有OID，不与SESSION对象关联
+C、瞬时状态的对象不具有OID，与SESSION对象关联
+D、瞬时状态的对象不具有OID，不与SESSION对象关联
+187	下列选项中，属于设值注入要求一个Bean必须满足的要求有（   ）
+A、Bean类必须提供一个默认的构造方法
+B、Bean类必须提供一个有参的构造方法
+C、Bean类必须为需要注入的属性提供对应的get方法
+D、Bean类必须为需要注入的属性提供对应的set方法
+188	当Action只有一个请求处理方法execute()，并且Action继承了ActionSupport类，那么对请求参数的校验代码可以放到名称（）方法中。
+A、validate
+B、validateParams
+C、validateExecute
+D、validateParameters
+189	下列OID生成策略错误的是（）
+A、auto
+B、identity
+C、uuid
+D、random
+190	下列有关Hibernate中核心接口Session的描述，正确的有（   ）
+A、Session是线程不安全的
+B、多个并发线程同时操作一个Session实例时，可能导致Session数据存取的混乱
+C、通过SessionFactory实例的openSession()方法可以获取Session实例
+D、通过SessionFactory实例的getCurrentSession()方法可以获取Session实例
+191	下列哪些规则不能作为Hibernate持久化类定义的规范？（）
+A、声明可访问的无参构造方法
+B、为所有属性提供getter与setter方法
+C、声明为最终类(final修饰)
+D、为实体模型类实现序列化接口
+192	Action类中的符合execute()方法的返回值的有（）
+A、SUCCESS
+B、”SUCCESS”
+C、”success”
+D、null
+193	Bean的作用域不包含以下哪个范围（）
+A、singleton
+B、prototype
+C、all
+D、none
+194	下列名称可以用于作为Hibernate映射配置名的是？（）
+A、User.cfg.xml
+B、User.xml
+C、UserModel.hbm.xml
+D、user.properties
+195	下列哪些选项能实现struts2入门程序？（）
+A、普通的Action类可以实现
+B、继承自Action接口的可以实现
+C、继承自ActionSupport类可以实现
+D、继承自ActionValidate类可以实现
+196	Hibernate配置文件hibernate.cfg.xml中，不包括下面的（）
+A、“对象关系映射”信息
+B、实体间关联的配置
+C、show_sql等参数的配置
+D、数据库连接信息
+197	下哪些api，可以获得值栈对象？（）
+A、ActionContext.getContext().getValueStack();
+B、ActionContext.getRequest().getValueStack();
+C、ServletActionContext.getReuqest().getAttribute("struts.valueStack");
+D、ServletActionContext.getServletContext().getAttribute("struts.valueStack");
+198	下列哪些技术可以用于完成数据库的添加操作？（）
+A、JDBC
+B、ApacheDBUtils
+C、struts2
+D、Hibernate
+199	下列有关Hibernate持久化类编写规则的描述，正确的有（   ）
+A、持久化类中必须提供默认或者手动编写的无参数public构造器
+B、必须提供标识属性OID
+C、持久化类不要用final修饰
+D、持久化类属性应尽量使用基本数据类型
+200	hibernate 支持二级缓存技术有（）
+A、EHCache
+B、OSCache
+C、SwarmCache
+D、JBossCache
+201	下列哪些是package元素的属性？（）
+A、name
+B、extends
+C、value
+D、abstract
+202	Bean的属性注入可以通过以下方式完成（）
+A、构造器注入
+B、setter注入
+C、getter注入
+D、静态方法注入
+203	下列有关package元素中的extends属性的描述，正确的有（   ）
+A、extends属性是可选属性
+B、一个package元素中的extends属性可以出现多次
+C、extends属性一次只能继承一个包
+D、extends属性指定该包继承自其他包
+204	在Hibernate中，如果需要级联删除，则cascade属性值可为（）
+A、all
+B、save-update
+C、none
+D、delete
+205	下列有关Spring的IOC容器ApplicationContext的描述，正确的有（   ）
+A、ApplicationContext是BeanFactory的子接口
+B、ApplicationContext被称为应用上下文
+C、ApplicationContext提供BeanFactory所有的功能
+D、ApplicationContext以一种更加面向框架的方式增强了BeanFactory的功能
+206	在Hibernate中，属于二级缓存分类的有（   ）
+A、类级别的缓存
+B、查询级别的缓存
+C、集合级别的缓存
+D、Session级别的缓存
+207	下列有关Hibernate中乐观锁的描述，正确的有（   ）
+A、乐观锁是基于数据版本（Version）标识实现应用程序级别上的锁定机制
+B、乐观锁一般由数据库来实现
+C、使用乐观锁时，需在*.hbm.xml映射文件中增加一个version标签元素
+D、<version>标签必须位于<id>标签之下，否则文件会报错
+208	下列有关<s:hidden>标签的描述，正确的有（   ）
+A、<s:hidden>标签用于创建隐藏表单元素
+B、<s:hidden>标签可以生成HTML中的隐藏域标签<inputtype="hidden">
+C、<s:hidden>标签在页面上没有任何显示
+D、<s:hidden>标签可以保存或交换数据
+209	下列有关Bean的作用域的描述，正确的有（   ）
+A、prototype是Spring容器默认的作用域
+B、每次通过Spring容器获取的prototype定义的Bean时，容器都将创建一个新的Bean实例
+C、使用request定义的Bean时，在一次HTTP请求中容器会返回该Bean的同一个实例
+D、使用singleton定义的bean在Spring容器中将只有一个实例
+210	下列有关Struts2的表单标签的描述，正确的有（   ）
+A、<s:textfield>标签用于创建单行文本框
+B、<s:textarea>标签用于创建多行文本框
+C、<s:textarea>标签可以通过使用cols属性指定多行文本框的列数
+D、<s:textfield>标签可以通过使用value属性指定单行文本框的当前值
+211	下列选项中，属于数据库中多表之间关系的有（   ）
+A、多对多
+B、一对多
+C、一对一
+D、以上均不正确
+212	下列有关<s:param>标签的描述，正确的有（   ）
+A、<s:param>标签通常要与其它标签合起来使用
+B、<s:param>标签主要用来为其它标签提供参数
+C、<s:param>标签可以使用value属性指定参数值
+D、<s:param>标签可以通过标签体来指定参数值
+213	下列关于Action控制类中execute()方法要求的描述，正确的有（   ）
+A、方法的权限修饰符为public
+B、返回一个字符串
+C、方法没有参数
+D、为静态方法
+214	完成按照用户年龄进行查询，下列程序片段如下：
+String hql = "from UserModel where age = ?";
+Query q = s.createQuery(hql);
+q.________(0,18);
+空白处可以填写的内容为（）
+A、setInteger
+B、getInteger
+C、setParameter
+D、getParameter
+215	下列有关<s:checkboxlist>标签的描述，正确的有（   ）
+A、<s:checkboxlist>标签用于一次性创建多个复选框
+B、用户可以选择创建零到多个<s:checkboxlist>标签
+C、<s:checkboxlist>标签用来产生一组<inputtype="checkbox"/>标签
+D、listValue属性用于生成checkbox后面显示的文字
+216	下列关于package元素常用属性的描述，正确的有（   ）
+A、name用于指定该包的名字
+B、namespace是必选属性
+C、extends属性一次只能继承一个包
+D、abstract属性的值为true时，说明该包是抽象包
+217	下列有关Spring框架的描述，正确的有（   ）
+A、Spring是持久层框架
+B、Spring是JavaWeb开发框架
+C、Spring是开源框架
+D、Spring是一个重量级框架
+218	下列关于Struts2的说法正确的是（）
+A、项目开源，使用及拓展方便
+B、Struts2框架比Struts1更加灵活、高效，满足开发需求。
+C、Struts2是以Struts1为内核的框架。
+D、Struts2属于MVC框架。
+219	下列有关HQL语句指定别名的描述，正确的有（   ）
+A、在HQL语句中也可以使用别名
+B、别名使用关键字as指定
+C、指定别名时as关键字可以省略
+D、指定别名时as关键字不能省略
+220	下列关于拦截器的配置的描述，正确的有（   ）
+A、拦截器的配置是在struts.xml文件中完成的
+B、拦截器的配置是通过<interceptor>标签进行的
+C、要想让拦截器起作用，需先对它进行配置
+D、在定义拦截器时可以传入参数
+221	下列选项中，属于Struts2标签库中逻辑控制标签的有（   ）
+A、<s:else>
+B、<s:form>
+C、<s:iterator>
+D、<s:property>
+222	下列有关Struts2 内置主题的描述，正确的有（   ）
+A、xhtml为默认主题
+B、css_xhtml主题是对xhtml的扩展，在xhtml的基础之上添加对CSS的支持和控制
+C、xhtml主题有一定的局限性，难以胜任复杂的页面布局
+D、可以通过设置来改变Struts默认主题
+223	关于HQL查询，下列说法正确的有（）
+A、HQL查询的select子句中必须区分大小写。
+B、HQL支持不统计函数。
+C、HQL支持仅查询对象的某几个属性，查询结果保存于Object数组中。
+D、HQL查询为官方推荐的查询方式。
+224	进行Hibernate属性配置时，不能使用下列哪种配置格式？（）
+A、<propertyname="name">
+B、<propertycolumn="age">
+C、<property"address"=name"addr"=column>
+D、<propertyname="usreName"column="userName"></property>
+225	下列有关Hibernate中核心接口Transaction的描述，正确的有（   ）
+A、Session执行完数据库操作后，事务将自动提交
+B、Transaction接口中提供了一个wasCommitted()方法，用于检查事务是否提交
+C、Transaction接口主要用于管理事务
+D、Transaction是Hibernate的数据库事务接口，且对底层的事务接口进行了封装
+226	下列有关Hibernate一级缓存的描述，正确的有（   ）
+A、一级缓存是Session级别的缓存
+B、一级缓存由Hibernate管理
+C、一级缓存一般情况下无需进行干预
+D、一级缓是一个可插拔的缓存插件
+227	下列关于常量配置的描述，正确的是（   ）
+A、在struts.xml文件中通过<constant…/>元素来配置常量时，需要指定两个必填的属性name和value。
+B、struts.properties文件能配置的常量都可以在struts.xml文件中用<constant>元素来配置。
+C、struts.properties文件应存放于项目的src路径下
+D、在web.xml文件中无法进行常量配置
+228	已知系统中的tbl_user表对应的实体类是User,下列HQL语句中正确的是（）
+A、fromUser
+B、select*fromtbl_user
+C、selectUserfromUser
+D、fromUseruwhereu.uname="15"
+229	下列选项中，不属于设值注入要求一个Bean必须满足的要求有（   ）
+A、Bean类必须提供一个默认的构造方法
+B、Bean类必须为需要注入的属性提供对应的set方法
+C、Bean类必须为需要注入的属性提供对应的get方法
+D、Bean类必须提供一个有参的构造方法
+230	下列有关Hibernate中持久化对象的状态的描述，正确的有（   ）
+A、状态可以划分为瞬时态、持久态和脱管态三种
+B、持久态对象是在事务还未提交前变成持久态的
+C、当某个持久化状态的实例与Session的关联被关闭时就变成了瞬时态
+D、一个持久化类的实例可能处于三种不同状态中的某一种
+231	下列关于OGNL中Context对象的描述，正确的有（   ）
+A、Context是一个Map类型的对象
+B、Root对象所在环境就是OGNL的上下文环境（Context）
+C、上下文环境Context规定了OGNL的操作"在哪里进行"
+D、使用OGNL表达式可以获取Context对象中的内容
+232	持久化类的编写规则有哪些？（）
+A、提供一个无参数public访问控制符的构造器
+B、提供一个标识属性，映射数据表主键字段
+C、所有属性提供public访问控制符的setget方法
+D、属性应尽量使用基本数据类型的包装类型
+233	下列关于<s:debug>标签的描述，正确的有（   ）
+A、<s:debug>标签用于在调试程序时输出更多的调试信息
+B、<s:debug>标签主要输出ValueStack和StackContext中的信息
+C、<s:debug>标签只有一个id属性，且一般不使用
+D、使用<s:debug>标签后，网页中会生成一个[Debug]的链接
+234	下列有关<s:param>标签的描述，错误的有（   ）
+A、<s:param>标签可以使用value属性指定参数值
+B、<s:param>标签主要用来为其它标签提供参数
+C、<s:param>标签不能与其它标签合起来使用
+D、<s:param>标签通过标签体来指定参数值时需要加单引号
+235	JdbcTemplate类包含的对数据库的基本操作有（   ）
+A、添加
+B、修改
+C、查询
+D、删除
+236	在值栈的上下文Context中，存在一些固定的key表示不同的对象，以下描述正确的是（）
+A、request，表示request作用域的数据
+B、.session，表示session作用域的数据
+C、application，表示application作用域的数据
+D、parameters，表示请求参数的所有数据
+237	下列有关Hibernate中悲观锁的描述，正确的有（   ）
+A、在整个数据处理过程中，会把数据处于锁定状态
+B、悲观锁一般由数据库来实现
+C、悲观锁可能导致长时间的等待问题
+D、悲观锁是指在每次操作数据时，总是悲观地认为会有其他事务也会来操作同一数据
+238	下列选项中，属于Hibernate检索方式的有（   ）
+A、导航对象图检索方式
+B、OID检索方式
+C、HQL检索方式
+D、SQL检索方式
+239	下列有关拦截器的描述，正确的有（   ）
+A、拦截器可以动态拦截Action调用的对象
+B、拦截器在一个Action执行前后进行拦截
+C、对应各个功能的拦截器按照一定的顺序排列在一起形成拦截器链
+D、拦截器链组成的集合是拦截器栈
+240	在struts2访问servlet的API，下面说法正确的是？
+A、可以通过ActionContext解耦和的方式，间接的操作servlet的三个作用域
+B、ServletActionContext提供了访问servlet常用对象的方法。例如：getServletContex()等
+C、struts提供若干接口直接给action注入相应的对象。例如：ServletContextAware可以给当前action注入ServletContext对象
+D、ServletActionContext.getRequest()可以获得HttpServletRequest对象。
+241	下列有关Hibernate框架的描述，正确的有（   ）
+A、Hibernate是一个开源框架
+B、Hibernate对JDBC进行了轻量级的对象封装
+C、Hibernate简化了程序的代码量、提高了工作效率
+D、Hibernate使得Java开发人员可以使用面向对象的编程思想来操作数据库
+242	下列关于Hibernate中持久化对象瞬时态的描述，正确的有（   ）
+A、瞬时态也称为临时态或者自由态
+B、瞬时状态的对象在内存中是孤立存在的，与数据库中的数据无任何关联
+C、瞬时态不存在持久化标识OID
+D、瞬时态的实例是由new命令创建、开辟内存空间的对象
+243	下列有关<result>元素属性的描述，正确的有（   ）
+A、<result>元素可以有name和type属性
+B、<result>元素中的name属性是必选属性
+C、type属性用于指定返回的视图资源的类型
+D、type属性的默认值是dispatcher
+244	下面关于在Spring中配置Bean的id属性的说法正确的是（）
+A、id属性是必须的，没有id属性就会报错。
+B、id属性不是必须的，可以没有。
+C、id属性的值可以重复。
+D、id属性的值不可以重复。
+245	下列Struts2标签中，属于表单标签的有（   ）
+A、<s:a>
+B、<s:debug>
+C、<s:reset>
+D、<s:checkbox>
+246	下列有关模型驱动的描述，正确的有（   ）
+A、Action类必须实现ModelDriven接口
+B、Action类需重写ModelDriven接口的getModel()方法
+C、模型驱动方式通过JavaBean模型进行数据传递。
+D、getModel()方法返回的是String类型的字符串
+247	下列关于<include>元素的描述中，正确的有（   ）
+A、每一个被包含的配置文件都是标准的Struts2配置文件
+B、配置<include>元素时，需指定一个必选的file属性
+C、每一个被包含的配置文件不需再包含DTD信息、Struts2配置文件的根元素等信息
+D、<include>元素进行包含配置体现的是软件工程中的"分而治之"原则
+248	下列选项中，属于事务并发可能发生的问题的有（   ）
+A、一个事务读取到另一个事务未提交的数据。
+B、一个数据库中的事务读到另一个数据库中的数据
+C、两个事务都同时更新一行数据，后提交（或撤销）的事务将前面事务提交的数据覆盖了
+D、一个事务对同一行数据重复读取两次，但是却得到了不同的结果
+249	下列有关Restrictions类中静态方法的描述，正确的有（   ）
+A、Restrictions.eq表示等于
+B、Restrictions.gt表示大于
+C、Restrictions.le表示小于
+D、Restrictions.and表示and关系
+250	以下关于OGNL的说法正确的是（）
+A、ActionContext是OGNL的上下文环境。
+B、StackContext是OGNL的上下文环境。
+C、ValueStack是OGNL的根。
+D、ActionContext是OGNL的根。
+251	下列有关<s:optgroup>标签的描述，正确的有（   ）
+A、<s:optgroup>标签用来生成选项组
+B、<s:optgroup>标签经常与<s:select>标签联用
+C、<s:select>标签不能包含多个<s:optgroup>标签
+D、<s:optgroup>标签的label属性表示选项组的组名
+252	在demo struts2项目中，如下配置struts，其他项使用默认，如何可以访问到action?（）
+<package namespace="/hello">
+<action name="worldAction">
+A、http://localhost:8080/demo/hello/worldAction
+B、http://localhost:8080/hello/worldAction
+C、http://localhost:8080/demo/hello/worldAction.action
+D、http://localhost:8080/demo/world/worldAction
+253	下列有关文件上传的描述，正确的有（   ）
+A、文件上传需要用到<s:file>标签
+B、文件上传需将form表单的enctype属性值设置为multipart/form-data
+C、文件上传时表单的method属性必须设置成post提交方式
+D、文件上传是指将本地文件上传到服务器的指定目录下
+254	下列有关<s:iterator>标签属性的描述，正确的有（   ）
+A、step属性的默认值为0
+B、begin属性的默认值为1
+C、status属性表示迭代过程中的状态
+D、status属性的默认值为false
+255	下列选项中，属于事务四个特性之一的有（   ）
+A、隔离性
+B、持久性
+C、一致性
+D、原子性
+256	下列选项中，属于Hibernate技术优势的有（   ）
+A、提供强大的、可以有效减少页面代码的标签
+B、很大程度的简化了dao（DataAccessObject，数据访问对象）层编码工作
+C、支持很多关系型数据库，从一对一到多对多的各种复杂关系
+D、提供标准、强大的验证框架和国际化框架
+257	下列选项中，不属于Spring中实例化Bean的方式的有（   ）
+A、构造器实例化
+B、静态工厂方式实例化
+C、实例工厂方式实例化
+D、抽象方法实例化
+258	下列有关*.hbm.xml映射文件的hibernate-mapping元素属性的描述，正确的有（   ）
+A、default-lazy属性指定Hibernate默认所采用的延迟加载策略
+B、default-lazy属性值默认为true
+C、default-cascade属性指定默认的级联样式
+D、default-cascade属性值默认为空
+259	下列选项中，属于<action>元素属性的有（   ）
+A、name
+B、method
+C、type
+D、converter
+260	下列关于Struts2标签的使用的描述，正确的有（   ）
+A、在JSP文件使用taglib指令导入Struts2标签库
+B、taglib指令的uri属性用于指定引入标签库描述符文件的URI
+C、taglib指令的prefix属性用于指定引入标签库描述符文件的前缀
+D、在JSP文件中，所有的Struts2标签库的建议使用"s"前缀
+261	一般情况下，以下哪个选项不是关系数据模型与对象模型之间的匹配关系。
+A、表对应类
+B、记录对应对象
+C、表的字段对应类的属性
+D、表之间的参考关系对应类之间的依赖关系
+262	下列对ActionContext类方法描述正确的是（）
+A、put()和get()方法用来操作request域
+B、getParameters()方法等同于request.getParametereMap()方法
+C、getSession()方法返回值类型为HttpSession
+D、getApplication()方法返回值类型为ServletContext
+263	下列有关Hibernate缓存的描述，正确的有（   ）
+A、Hibernate的缓存分为一级缓存和二级缓存
+B、Hibernate的一级缓存和二级缓存都位于持久化层
+C、二级缓存为Hibernate的内置缓存，不能被卸载
+D、Hibernate的缓存存储的都是数据库数据的备份
+264	下列有关自定义拦截器的描述，正确的有（   ）
+A、与实现Interceptor接口相比，继承AbstractInterceptor类进行自定义拦截器的方法更为简单。
+B、Struts2的内置拦截器可以完成大部分的拦截任务，因此不推荐自定义拦截器
+C、如果需要开发自己的拦截器类，就需要直接或间接的实现Interceptor接口
+D、继承抽象拦截器类AbstractIntercepter也可以自定义拦截器
+265	下列有关<bean>元素中属性的描述，正确的有（   ）
+A、id属性是一个Bean的唯一标识符
+B、name属性中只能为Bean指定一个名称
+C、HTML文件格式
+D、Properties文件格式
+266	下列选项中，属于Spring框架优点的有（   ）
+A、方便解耦、简化开发
+B、AOP编程的支持
+C、方便集成各种优秀框架
+D、声明式事务的支持
+267	Spring容器支持的配置文件格式有（   ）
+A、XML文件格式
+B、TXT文件格式
+C、HTML文件格式
+D、Properties文件格式
+268	下列关于默认拦截器的描述，正确的有（   ）
+A、拦截器栈不能作为默认拦截器
+B、默认拦截器需要使用<default-interceptor-ref>元素
+C、默认拦截器可以对其指定的包中，所有的Action都能起到拦截的作用
+D、每一个package下可以定义多个默认拦截器
+269	下列选项中，属于Spring通知类型的是（   ）
+A、前置通知
+B、中置通知
+C、后置通知
+D、环绕通知
+270	在struts2中想去修改struts2的访问action的扩展名,可以在哪些配置文件中修改？（）
+A、struts.xml
+B、struts.properties
+C、web.xml
+D、struts-config.xml
+271	下列有关JDK动态代理的描述，正确的有（   ）
+A、JDK动态代理是通过JDK中的java.lang.reflect.Proxy类来实现的
+B、AOP手动使用代理模式有两个典型的例子，分别为JDK动态代理和CGLIB代理
+C、JDK的动态代理依靠接口实现，如果有些类并没有实现接口，则不能使用JDK代理
+D、
+E、使用动态代理的对象不必实现接口
+272	快照是自动产生的，不可以手工修改。( )
+273	自定义的包继承了Struts2的struts-default包，就可以使用默认包中定义的内建拦截器。( )
+274	值栈对象的生命周期随着request对象的创建而创建，随着request对象销毁而销毁。( )
+275	在Struts2中没有预定义结果类型。( )
+276	保存在内存中数据的状态是瞬时状态。( )
+277	在struts2中，直接访问jsp页面，struts2将使用默认拦截器栈处理当前请求。( )
+278	struts2中拦截器实现责任链模式。（( )
+279	值栈是struts2中用来存放数据的内存结构。( )
+280	Spring是以IOC和AOP为内核的框架。( )
+281	ActionContext.getContext().getSession().put(key,value); 将数据放置context 固定key为session对应的map中。( )
+282	模型驱动要求必须为成员提供getter/setter方法。( )
+283	二级缓存只需要导入第三方缓存技术JAR包ehcache-1.5.0.jar即可。( )
+284	<class-cache>元素用于指定哪个对象使用二级缓存。( )
+285	OgnlContext 对内置了很多常用 web对象的对应Map结构，通过parameters 、request、session、 application、attr 对应map对象，可以间接操作 Servlet API。( )
+286	Struts2.3.24版本的核心过滤器类是StrutsPrepareAndExecuteFilter。( )
+287	不使用注解开发，可以导入struts2-convention-plugin-2.3.14.jar此JAR包。( )
+288	在关联关系中的反转操作中，inverse只对<set>、<one-to-many>或<many-to-many>标签有效，对<many-to-one>和<one-to-one>无效。( )
+289	构造器注入的索引是从1开始。( )
+290	模型驱动编写一个成员变量，可以不实例化。( )
+291	事务是由一条或多条操作数据库的SQL语句组成的一个不可分割的工作单元。( )
+292	在applicationContext.xml文件中加载properties文件使用<context>节点。( )
+293	struts2的默认拦截器栈，已经包括了fileUpload拦截器。( )
+294	当使用HQL检索方式检索数据表中的所有记录时，查询语句中可以省略select关键字。( )
+295	自定义拦截器可以实现很多功能，比如权限控制，性能监控。( )
+296	struts2默认将request、session、application放入到map中。( )
+297	Hibernate中事务提交前，默认会执行flush()方法。( )
+298	struts2的拦截器放置在servlet中也可以使用。( )
+299	struts2对request对象进行了增强，不仅可以获取到request域中的数据也可以获取到值栈中的数据。( )
+300	多对多级联添加是添加当前对象的同时，将被关联对象也进行添加。( )
+301	值栈贯穿Action的整个生命周期。( )
+302	<s:file>标签用于创建一个文件选择框。( )
+303	Configuration接口是配置hibernate，根据其启动hibernate，创建SessionFactory对象。( )
+304	持久状态的数据在关机后数据依然存在。( )
+305	除了使用Struts2定义的内建拦截器，我们还可以自定义拦截器。( )
+306	valueStack是单例的，用于存放struts2需要存放的数据。( )
+307	Hibernate映射配置文件必须配置类属性与表字段的映射。( )
+308	表单提交数据时，表单元素name属性的值不一定要和Action中属性的名称对应。( )
+309	Hibernate3提供了属性的延迟加载功能。( )
+310	IOC容器的作用把创建对象的任务交给spring容器来做。( )
+311	在hibernate.cfg.xml 开启二级缓存是
+<property name="hibernate.cache.use_second_level_cache">true</property>。( )
+312	Query对象的uniqueResut()方法返回结果内容为对象或对象数组。( )
+313	HQL：select userName from UserModel可以使用uniqueResut()方法进行查询结果的获取。( )
+314	只读型（read-only）数据不允许修改 ，只能查询。( )
+315	<s:iterator>标签的status属性默认值为1。( )
+316	如果在<action>元素中指定<interceptor-ref>那么默认defaultStack就不会得到执行。( )
+317	拦截器栈是由多个拦截器链或者拦截器栈组成而成。( )
+318	持久化可以把对象转换成为字符串的形式通过网络传输，在另一端接受到这个字符串后能把对象还原出来。( )
+319	Struts2是Struts1的下一代，其设计思想大致相同。( )
+320	获取Configuration对象的方式Configuration conf = Configuration.getConfiguration();( )
+321	持久化能把程序保存到文件。( )
+322	文件上传时form表单的enctype属性值必须设置为multipart/form-data。( )
+323	struts2将值栈保存servlet 的request作用域。( )
+324	hibernate事务相关配置通常配置在hibernate.cfg.xml文件中。( )
+325	默认情况，在一个action没有配置拦截器的引用，说明当前action将不使用拦截器。( )
+326	在Struts2的数据标签中，<s:a>标签用于构造HTML页面中的超链接。( )
+327	HQL面向对象，而SQL操纵关系数据库。( )
+328	属性驱动要求Action属性必须提供getter/setter方法。( )
+329	值栈被保存在HttpServletRequest作用域中。( )
+330	Struts2和Spring进行整合时，Struts2的相关配置可以不配置在applicationContext.xml中。( )
+331	Struts2标签库主要分为普通标签和UI标签。( )
+332	action类可以获取上传文件的文件名称和文件类型。( )
+333	Struts2和Spring进行整合时，Spring采用单例的方式管理Action。( )
+334	”from UserModel um”符合HQL语句格式。( )
+335	HQL：select userName from UserModel可以使用list()方法进行查询结果的获取。( )
+336	Spring与Struts2进行整合时，Bean的作用域通常设置为prototype。( )
+337	执行查询时，查询数据封装为对象保存在一级缓存数据区，同时将查询数据快照信息保存到快照区。( )
+338	使用构造器实例化方式实例化Bean，则该Bean对应的类中必须有默认的构造函数。( )
+339	二级缓存是SessionFactory级别的缓存，同一个SessionFactory开启的不同Session间数据共享。( )
+340	在struts.xml文件中通过<init-param>元素来配置常量。( )
+341	uniqueResut()方法返回结果为对象或对象数组，数据总量为0到1条数据。( )
+342	清空一级缓存中的指定数据可以使用clear()方法。( )
+343	destory-method指定方法正常执行，必须设置为scope=”singleton”，并且手动调用close()方法。( )
+344	<result>元素中name属性的默认值为success。( )
+345	Hibernate的映射文件的作用是实体类的属性与数据库表的字段建立一一对应关系。( )
+346	一个SessionFactory对象对应多个数据库存储源。( )
+347	表单提交数据时，可以通过action的属性驱动，来获取数据。( )
+348	必须实现接口ModelDriven，通过在实现接口时，提供javabean类型作为泛型参数。( )
+349	关系维护能力可以通过设置inverse选项进行。( )
+350	Hibernate快照区保存了与一级缓存相对应的数据，但是并不是真正的对象。( )
+351	二级缓存的数据首先加载到一级缓存中，然后一级缓存将数据返回给应用程序。( )
+352	struts2拦截器必须先注册再使用。( )
+353	Spring各模块之间可以单独存在。( )
+354	一个Bean可以具有多个name值。( )
+355	持久化能把程序数据从数据库中读出来。( )
+356	快照的作用是用于比对一级缓存中的数据是否进行增删改操作。( )
+357	package元素的extends属性默认情况下继承struts-default。( )
+358	使用Hibernate只做查询操作时，可以不开启事务。( )
+359	若execute()方法返回一个SUCCESS常量，则表示执行成功，并返回结果页面。( )
+360	模型驱动不能与属性驱动同时存在。( )
+361	同一个配置文件中，多个Bean可以使用同一个id值。( )
+362	hibernate的QBC分页查询中的setMaxResults表示当前页最多检索几条记录。( )
+363	与悲观锁相比，乐观锁（Optimistic Locking）通常认为许多事务同时操作同一个数据的情况很少发生，所以乐观锁不做数据库层次的锁定。( )
+364	外置缓存必须引入第三方缓存插件才能使用。( )
+365	QBC查询没有HQL查询容易理解。( )
+366	D.stream确定result将从action获得流并发送到浏览器。( )
+367	获得值栈对象引用 可以通过两种方法：
+第一种 ServletActionContext.getRequest().getAttribute("struts.valueStack");
+第二种 ActionContext.getContext().getValueStack();( )
+368	<s:checkboxlist/>的list属性，只能添加List集合数据，不能添加Map集合数据。( )
+369	通过继承抽象拦截器类AbstractIntercepter可以自定义拦截器。( )
+370	struts2是基于MVC模式的,很好的将应用程序进行了分层，使开发者更关注于业务逻辑的实现。( )
+371	Hibernate框架是一个Java持久层框架。( )
+372	对象栈可以存放任意Java对象，struts2底层使用List实现栈的效果。( )
+373	Struts2是Struts1的升级版本。( )
+374	struts2的拦截器在intercept()方法中执行invocation.invoke()，表示执行下一个拦截器或目标action方法。( )
+375	一级缓存与快照可以根据需求，手工修改快照区的内容。( )
+376	在Struts2.1版本之前，所使用的核心过滤器类是org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter。( )
+377	ActionContext.getContext().put(key,value) 直接对context进行操作。( )
+378	UI标签是以丰富而可复用的HTML文件来显示数据。( )
+379	配置文件中的init-method属性表示调用的初始化方法。( )
+380	Spring核心模块的作用是做IOC的，用来管理Bean的。( )
+381	Struts2和Spring进行整合时， Struts2自身创建Action需要在配置action的class属性使用全类名。( )
+382	QBC查询短语中Restrictions.eq表示等比对。( )
+383	刷新一级缓存时，执行SQL语句的判定标准为数据区与快照区的数据是否相同。( )
+384	<s:if>、<s:elseif>、<s:else>这三个标签用于程序的分支逻辑控制。( )
+385	编写HelloWorldAction类时必须继承ActionSupport类。( )
+386	<s:submit>标签可以指定提交时的Action对应的方法。( )
+387	HQL语句类似于SQL语句，在HQL语句中也可以使用别名。( )
+388	执行flush()方法会发送update语句。( )
+389	Hibernate的映射文件反映了持久化类和数据库表的映射信息。( )
+390	文件上传必须要使用<s:file>标签。( )
+391	拦截器栈不能作为默认拦截器。( )
+392	refresh()方法可以重新查询数据库并更新Hibernate快照区和一级缓存。( )
+393	在实际开发中，如果是一对多关系，会将一的一方的inverse属性设置为true。( )
+394	<s:reset>标签用来创建一个重置按钮。( )
+395	Spring和Hibernate整合后可以将hibernate.cfg.xml相关配置放入applicationContext.xml文件中。( )
+396	在一级缓存常用操作中，调用Session的refresh ()方法时，会执行刷出缓存的操作。( )
+397	@Conpoent注解与@Component、@Service、@Controller功能相同。( )
+398	Hibernate版本下载并解压完的目录中，lib/required子目录存放了运行Hibernate3项目必须的JAR包。( )
+399	一对多关系中，一方模型中添加多方模型的集合。( )
+400	模型驱动要求Action类必须实现ActionSupport类。( )
+401	html表单标签的class属性，在struts中需要使用cssClass属性。( )
+402	EL表达式不能直接访问值栈中的数据。( )
+403	AOP的全称是 Aspect Oriented Programing，即面向切面编程。( )
+404	在Hibernate的核心API中，Session 对象是应用程序与数据库之间交互操作的一个单线程对象。( )
+405	QBC查询短语中Restrictions.ge表示大于等于比对。( )
+406	Hibernate是一个开放源代码的ORM（Object Relational Mapping，对象关系映射）框架。( )
+407	获取Transaction对象的方式Transaction t = s.getTransaction();( )
+408	为Bean的属性注入值可以使用property元素的ref或者value属性完成。( )
+409	@Resource默认按照Bean实例名称进行装配。( )
+410	Hibernate中只提供了一个级别的缓存。( )
+411	<s:a>标签用于构造HTML页面的超链接。( )
+412	可以通过ActionContext.getContext().getValueStack()获得值栈。( )
+413	查询缓存依赖于类级别的缓存。( )
+414	所谓的拦截器链是指对应各个功能的拦截器按照一定的顺序排列在一起形成的链。( )
+415	数据可以由持久状态转换为瞬时状态。( )
+416	在Spring容器中，<bean>元素中的lazy-init属性用来表示延迟加载。( )
+417	Struts2预定义的结果类型中，每个<result-type>元素都是一种视图技术或者跳转方式的封装。( )
+418	多对多级联删除是删除当前对象的同时，将被关联对象也进行删除。( )
+419	拦截器的配置是通过<interceptor>标签进行的。( )
+420	Struts2核心功能是由拦截器实现的。( )
+421	Spring属于三层架构的持久层框架。( )
+422	在解压后的Struts2.3.24的安装目录结构中，apps文件夹用于存放官方提供的Struts2示例程序。( )
+423	hibernate.cfg.xml中整合C3P0是<property name=”hibernate.connection.provider_class”>org.hibernate.connection.c3p0ConnectionProvider</property>。( )
+424	Hibernate映射中表中的字段必须与类中的属性一一对应，全部映射。( )
+425	事务是由一条或多条操作数据库的SQL语句组成的一个不可分割的工作单元。( )
+426	在Hibernate提供的各种检索方式中，SQL是官方推荐的查询语言。( )
+427	Hibernate是一个“对象关系映射”的实现。( )
+428	QBC查询短语中Restrictions.between表示范围比对。( )
+429	<s:checkbox>标签用于创建单选框。( )
+430	<include>元素用来在一个struts.xml配置文件中包含其他的配置文件。( )
+431	struts2默认拦截器栈名称是：defaultStack。( )
+432	singleton为单例模式。( )
+433	HQL查询的数据进入二级缓存。( )
+434	Spring的事务管理分为两种方式，分别为声明式事务管理和编程式事务管理。( )
+435	<s:optgroup>标签用来生成选项组。( )
+436	悲观锁是数据库内部锁机制。( )
+437	Hibernate的懒加载使用的是get()方法。( )
+438	HQL与SQL没什么差别。( )
+439	在Spring容器中的<bean>元素上设置属性default-lazy-init="true"，可以控制所有Bean的延迟加载。( )
+440	Struts2在有请求到达的时候为每个请求创建一个新的值栈。( )
+441	属性驱动要求Action属性类型必须为String类型。( )
+442	Action接口中定义了NONE常量。( )
+443	事务的隔离级别越高，越能保证数据库的完整性和一致性，但并发时越高的级别对性能的影响也越大。( )
+444	拦截器等同于过滤器。( )
+445	环绕通知在目标方法执行前后实施增强。( )
+446	异常抛出通知在方法抛出异常前实施增强。( )
+447	Struts2的表单标签中，<s:textfield>标签用于创建多行文本框。( )
+448	在Struts2中，在 request域中存放数据只能通过ActionContext进行设置。( )
+449	文件上传是指将本地文件上传到服务器的指定目录下。( )
+450	在hibernate.cfg.xml文件中配置数据库方言是<property name=”hibernate.dialect”>
+org.hibernate.dialect.MySQLDialect</property>。( )
+451	<result>元素中的name属性是必选属性。( )
+452	导入struts2标签库的方式为<%@ taglib prefix=”s” uri=”/struts-tags”>。( )
+453	值栈可以看作是对应每一个请求对象的轻量级的内存数据中心。( )
+454	redirect，将请求重定向到另一个资源，一般重定向到jsp页面。( )
+455	hibernate3.jar是hibernate的核心类库。( )
+456	多对多关系中，双方模型中添加对应模型的对象。( )
+457	<s:elseif>、<s:else>不能单独使用，都必须与<s:if>标签结合使用。( )
+458	Spring为我们提供了两种IoC容器，分别为BeanFactory和ApplicationContext。( )
+459	Hibernate实体对象制作规范包含为所有属性提供getter与setter方法。( )
+460	自定义拦截器放行方法，执行的是ActionInvacation的invoke()方法。( )
+461	拦截器的配置是在struts.xml文件中完成的。( )
+462	Struts2的表单标签中，用于创建单行文本框的是【】标签。( )
+463	一个Bean可以具有多个id值。( )
+464	每个<bean>元素中的id属性值在Spring容器中是唯一的。( )
+465	IoC容器中的对象可以为多例模式。( )
+466	@Autowire 注解可以用在字段上也可以用在set方法上。( )
+467	Action控制类中execute()方法的权限修饰符为public。( )
+468	execute()方法是Action类的默认请求处理方法。( )
+469	乐观锁与数据库锁无关。( )
+470	<s:checkbox>标签的fieldValue属性指定真实的value值，会被value属性值屏蔽。( )
+471	拦截器在一个Action执行前后都可以进行拦截。( )
+472	一个事务操作数据时，为数据加锁，另一个事务则进行无法操作。( )
+473	脏读是指一个事务读取到另一个事务已提交的数据。( )
+474	<s:debug>标签只有一个id属性，且一般不使用。( )
+475	”from UserModel where uuid = ?”符合HQL语句格式。( )
+476	JDBCTemplate类作为Spring对JDBC支持的核心，提供了所有对数据库操作功能的支持。( )
+477	“from UserModel where um.uuid = :uuid”符合HQL语句格式。( )
+478	required子目录是运行Hibernate项目必须的JAR包。( )
+479	struts2的<s:if>和<s:elseif>标签中，可以不指定test属性。( )
+480	悲观锁解决丢失更新，但效率低，数据不能同时修改。( )
+481	<s:checkboxlist>标签用于产生一组<input type=“checkbox”/>标签。( )
+482	获取Session对象的方式Session s = sf.getSession();( )
+483	使用Hibernate可以简化持久化层的编码。( )
+484	二级缓存默认开启，无需手工设置。( )
+485	Spring框架可以和Struts2和Hibernate框架进行整合。( )
+486	OID检索方式主要使用get()和load()方法进行加载记录。( )
+487	singleton作用域是Spring容器默认的作用域。( )
+488	package元素的常用属性中，namespace属性是必选属性。( )
+489	Spring的核心模块是必须的，其他模块是基于核心模块。( )
+490	HQL语句中可以使用别名，别名使用关键字as指定。( )
+491	OGNL支持静态方法调用获取值。( )
+492	applicationContext.xml主要是配置各种Bean以及声明式事务。( )
+493	struts2的标签只能使用s前缀。( )
+494	Session是线程安全的。( )
+495	Struts2的核心配置文件是struts.xml。( )
+496	struts2内部使用了很多内置拦截器，用于在Action执行前后加入某些操作。( )
+497	struts2定义好的拦截器配置在struts-default.xml文件中。( )
+498	hibernate的QBC分页查询中的setFirstResult默认值是0。( )
+499	Spring容器默认的作用域是prototype作用域。( )
+500	配置默认拦截器需要使用<default-interceptor-ref>元素。( )
+501	<s:debug>标签是用于调试程序时输出的相关信息。( )
+502	<s:iterator>标签的step属性默认值为0。( )
+503	<s:iterator>标签主要用于对集合中的数据进行迭代。( )
+504	在web.xml文件中，filter标签中配置的是该过滤器的映射。( )
+505	在使用<s:form>标签时，一般会包含其它的表单元素。( )
+506	模型驱动需要实现接口的方法是getModel()。( )
+507	Struts2的表单标签中，<s:select>标签用于创建一个下拉列表框。( )
+508	依赖注入的作用是在使用Spring框架创建对象时，动态的将其所依赖的对象注入到Bean组件中。( )
+509	在Hibernate的缓存中，一级缓存为Hibernate的内置缓存，不能被卸载。( )
+510	Hibernate对日志的功能提供了实现。( )
+511	hibernate的HQL分页查询中的setMaxResults表示检索的总记录数。( )
+512	hibernate的HQL分页查询中的setFirstResult默认值是1。( )
+513	如果在Bean中未指定id和name，则Spring会将class属性的值当作id使用。( )
+514	JDK动态代理是通过JDK中的 java.lang.reflect.Proxy 类来实现的。( )
+515	多对多关系中，双方都使用many-to-many描述关系。( )
+516	拦截器在一个Action执行前才有拦截作用。( )
+517	Hibernate快照的作用就是确保一级缓存中的数据和数据库中的数据一致。( )
+518	Query对象的list()方法返回结果数据总量为1到多条数据。( )
+519	saveOrUpdate操作根据对象是否具有OID判断执行save操作还是update操作。( )
+520	delete操作只能对脱管态对象与持久态对象进行操作。( )
+521	Spring对服务器端三层体系架构的每一层都提供了技术支持。( )
+522	多对多关系中，关系的配置必须同时存在，不能仅配置一个SET。( )
+523	在HQL与SQL中，都包含select，insert，update，delete语句。( )
+524	在Hibernate的hibernate.cfg.xml配置文件中可以对事务进行配置。( )
+525	dispatcher，struts框架默认结果类型，将请求转发到另一个资源。( )
+526	模型驱动方式通过JavaBean模型进行数据传递。( )
+527	<s:password>标签用于创建一个密码输入框。( )
+528	Struts2的核心配置文件是struts2.xml。( )
+529	IoC是控制反转。( )
+530	在Spring和Hibernate整合使用Session对象进行CURD操作。( )
+531	一个类可以映射多个表，一个表可以映射多个类。( )
+532	<s:select>标签中，headerKey和headerValue属性需要同时使用。( )
+533	使用动态代理的对象不需要实现接口。( )
+534	一对多关系中，一方配置set，使用one-to-many描述关系。( )
+535	evict()方法用于清除一级缓存中的某个数据。( )
+536	如果在多个文件中配置了同一个Struts2常量，则后一个文件中配置的常量值会覆盖前面文件配置的常量值。( )
+537	自定义拦截器的声明必须配置在<package>中。( )
+538	属性驱动要求表单字段的名称必须与Action属性名相同。( )
+539	<s:radio>标签用于创建单选按钮。( )
+540	Struts2提供了对文件上传和下载功能的支持。( )
+541	本地事务是指针对一个数据库操作。( )
+542	Struts2是以WebWork为核心的，它采用拦截器的机制来处理用户的请求。( )
+543	Hibernate映射配置文件必须配置主键的映射关系。( )
+544	当多个事务同时访问数据库中的相同数据时，如果没有采取必要的隔离措施，将会导致各种事务并发问题，这时可以采用悲观锁或乐观锁对其进行控制。( )
+545	在struts2中可以利用ognl表达式展现数据。( )
+546	很少被修改，不是很重要，允许偶尔的并发问题，适合放入二级缓存。( )
+547	hibernate的HQL分页查询中的setMaxResults表示当前页最多检索几条记录。( )
+548	ActionContext对象使用getActionContext()即可获取。( )
+549	<s:form>标签用来呈现HTML语言中的表单元素。( )
+550	如果<package name=”a”>中设置了一个自定义拦截器in，在<pacage name=”b” extends=”a”>，那么b包中是不能使用自定义拦截器in的。( )
+551	开启动态方法调用是<constant name="struts.enable.DynamicMethodInvocation" value="false" />。( )
+552	在实际开发中，如果是一对多关系，则任意设置一方来维护关联关系即可。( )
+553	Spring各模块之间是紧密联系的，相互依赖的。( )
+554	在进行Hibernate下载时，hibernate-distribution-3.6.10.Final-dist.tar.gz文件是Windows环境下使用的版本。( )
+555	Spring框架默认的核心配置文件名为applicationContext.xml。( )
+556	struts2标签比JSTL更加易用和强大。( )
+557	获取SessionFactory对象的方式SessionFactory sf = conf.getSessionFactory();( )
+558	BeanFactory就是一个管理Bean的工程，它主要负责初始化各种Bean。( )
+559	Query对象的uniqueResut()方法返回结果数据总量为0到1条数据。( )
+560	JdbcTemplate类中有多个重载的update()方法。( )
+561	文件上传必须是post请求方式。( )
+562	关联关系必须配置成双向的，不能只配置一边。( )
+563	在使用模型驱动时，Action类必须实现ModelDriven接口，并且要重写getModel()方法。( )
+564	查询数据库时，添加悲观锁select * from table for update;。( )
+565	包含配置在struts.xml文件中设置<include file=””/>即可实现。( )
+566	如果在配置文件中没有对拦截器进行配置，默认执行默认的拦截器栈。( )
+567	在struts2标签内部中能使用EL表达式。( )
+568	Spring和Hibernate整合需要添加spring-orm-3.2.2.RELEASE.jar。( )
+569	QBC查询符合Java程序员的编程习惯。( )
+570	值栈中包含两个部分，一个CompoundRoot 和 一个OgnlContext,CompoundRoot是一个ArrayList 结构， OgnlContext 是一个Map 结构。( )
+571	IoC容器中管理的Bean默认为单例模式。( )
+572	xwork-core-2.3.24.jar是Struts2的核心类库JAR包。( )
+573	SessionFactory接口是负责保存、更新、删除、加载和查询对象，是线程不安全的，避免多个线程共享一个session，是轻量级、一级缓存。( )
+574	Spring容器的XML配置文件中，每一个<bean>子元素定义了一个Bean。( )
+575	瞬时态和脱管态的对象不在session的管理范围，所以会在一段时间后被JVM回收。( )
+576	Struts2标签库被定义在struts-tags.tld文件中。( )
+577	prototype原型模式表示每一次都会创建一个新的Bean实例。( )
+578	Hibernate映射配置文件必须配置类与表的映射关系。( )
+579	将数据转换为持久状态的机制称为数据持久化。( )
+580	在jsp页面，可以使用<s:property/> 获得栈顶的数据。( )
+581	UI标签支持Ajax技术操作。( )
+582	<s:password>标签可以生成HTML中的<input type=”password”/>标签，常用于在登录表单中输入用户的登录密码。( )
+583	Hibernate实体对象制作规范不包含为声明为最终类(final修饰)。( )
+584	在Hibernate中，用户可以显式地设定锁模式。( )
+585	Spring事务管理的核心接口中，PlatformTransactionManager接口是事务的状态，描述了某一时间点上事务的状态信息。( )
+586	AOP专业术语中，Target是指代理的目标对象。( )
+587	通常情况下先执行Action后执行拦截器。( )
+588	Spring和Hibernate整合后不可以替换hibernate.cfg.xml配置文件。( )
+589	通过为瞬时态对象设置持久化标识OID，可以直接将瞬时态转换为脱管态。( )
+590	一级缓存是Session级别的缓存，不同Session对象间数据不共享。( )
+591	开发Struts2项目时，需要在web.xml配置文件中手动配置Struts2的核心过滤器。( )
+592	一项事务（Transaction）只是由一条操作数据库的SQL语句组成的。( )
+593	Spring的事务管理是基于AOP实现的。( )
+594	通知是对目标切入点增强的内容。( )
+595	孤子删除是断开具有关联关系的对象关系时，被关联对象被删除。( )
+596	在Spring和Struts2整合时，需要导入struts2-spring-plugin.2.3.24.jar。( )
+597	OGNL的上下文环境Context是一个List类型的对象。( )
+598	事务型（Transactional）提供Repeatable Read事务隔离级别 ，缓存支持事务，发生异常的时候，缓存也能够回滚。( )
+599	可以通过ActionContext.getValueStack()获得值栈。( )
+600	在Struts2中，不支持使用EL表达式直接访问值栈中的数据。( )
+601	在使用Hibernate开发时，为了防止漏包，最好将lib下所有的jar导入到项目中。( )
+602	hibernate.cfg.xml配置文件反映了持久化类和数据库表的映射信息。( )
+603	Struts2是一个基于MVC模式的框架。( )
+604	AOP专业术语中， 切面是指要对哪些Joinpoint进行拦截。( )
+605	Hibernate实体对象制作规范不包含提供用于作为OID的标识属性。( )
+606	struts.xml文件可以放入任意目录进行加载。( )
+607	模型驱动要求Action类必须实现ModelDriven接口。( )
+608	<result>元素中type属性的默认值是dispatcher。( )
+609	<s:submit>标签主要用于产生HTML中的清除按钮。( )
+610	ApplicationContext是BeanFactory的子接口，也被称为应用上下文。( )
+611	TransactionDefinition接口是事务定义对象，提供事务相关信息获取的方法。( )
+612	ActionContext.getContext().put(key,value) 直接对context进行操作。( )
+613	Hibernate的二级缓存功能是通过配置二级缓存的插件来实现的。( )
+614	使用<s:property value="#key"/>获得context中指定key的内容。( )
+615	OGNL表达式需要配合Struts2标签才可以使用。( )
+616	文件上传form 表单enctype属性为multipart/form-data。( )
+617	@Autowire 注解默认按照类型进行装配。( )
+618	使用IoC可以完成为一个方法进行功能增强。( )
+619	乐观锁不做数据库层次的锁定，而是基于数据版本（Version）标识实现应用程序级别上的锁定机制。( )
+620	每次请求Action，Action对象本身都会 被push到值栈的root 中。( )
+621	拦截器链组成的集合是拦截器栈。( )
+622	设置inverse=”true”表示具有关系维护能力。( )
+623	QBC查询短语中Restrictions.le表示小于等于比对。( )
+624	值栈对象的内部有两个逻辑部分：对象栈和Map栈。( )
+625	hibernate的二级缓存中类级别缓存中存放的是对象实体的散装数据，查询时会重新组织新的实体对象。( )
+626	<result>标签定义了处理结果和视图资源之间的映射关系。( )
+627	Struts2数据标签中的<s:param>标签不能与其它标签合起来使用。( )
+628	struts2有着丰富的taglib,如能灵活运用，则能大大提高开发效率。( )
+629	<bean>元素的scope属性如果不设置，Spring容器中只会存在一个共享的Bean实例。( )
+630	include元素将其他配置文件包含到struts.xml文件。( )
+631	hibernate事务相关配置通常配置在hibernate.cfg.xml文件中。( )
+632	Struts2和Spring进行整合时，Action的创建时交给Spring进行管理的。( )
+633	一个类可以被定义成多个Bean。( )
+634	ActionContext.getContext().getApplication().put(key,value); 将数据放置context固定key为application对应的map中。( )
+635	文件下载是将文件从本地机器上放到服务器上。( )
+636	一对多关系中，多方使用many-to-one描述关系。( )
+637	OGNL中，Root对象所在环境就是OGNL的上下文环境（Context）。( )
+638	注入的方式有两种，分别是构造器注入与setter注入。( )
+639	Session执行完数据库操作后，要使用Transaction接口的commit()方法进行事务提交，才能真正的将数据操作同步到数据库中。( )
+640	Hibernate实体对象制作规范不包含声明无参公共的构造方法。( )
+641	在配置Struts2环境时，添加log4j.properties文件是为了打印日志信息。( )
+642	clear()方法是清空一级缓存中所有的数据。( )
+643	二级缓存数据加载load与get查询的数据进入二级缓存。( )
+644	save操作用于将瞬时态对象转化为持久态对象。( )
+645	<s:hidden>标签在页面上没有任何显示，可以保存或交换数据。( )
+646	自定义拦截器需要实现Interceptor接口。( )
+647	持久性指数据永久保存在数据库中。( )
+648	struts表单标签默认使用的主题是xhtml。( )
+649	一级缓存的常见操作分别为【】、【】和【】。( )
+650	HQL动态实例查询，能够将查询结果封装到一个对象当中。( )
+651	对于每个数据库事务，应该创建一个SessionFactory对象。( )
+652	乐观锁是在数据表中为数据添加版本字段，每次数据修改都会导致版本号+1。( )
+653	一个持久化类的实例可以同时处于三种不同状态中的两种。( )
+654	在Struts2中，Action和Servlet API耦合度很高，所以在Action中调用Servlet API很方便。( )
+655	每一个package下只能定义一个默认拦截器。( )
+656	读未提交隔离级别可有效的防止不可重复读和脏读。( )
+657	setter可以为Bean注入String类型的属性值，但是不能注入基本数据类型的值。( )
+658	<s:iterator>标签可以用于根据条件遍历集合中的数据。( )
+659	在Spring容器中，<bean>元素中的lazy-init属性的默认值为true。( )
+660	Hibernate是JDBC的替代技术。( )
+661	Struts2和Struts1相同都是基于MVC模式的轻量级Web框架。( )
+662	在实际项目开发中，通常都使用属性setter注入的方式进行依赖注入。( )
+663	Query对象的list()方法返回结果为List集合。( )
+664	可以通过设置来改变Struts的默认主题。( )
+665	在配置action元素时，如果没有指定class属性值，则其默认值为com.opensymphony.xwork2.ActionSupport类。( )
+666	Action类实现ServletRequestAware就可以直接访问Web应用的HttpServletRequest实例。( )
+667	redirect结果类型用来重定向到指定的结果资源，该资源只能是JSP文件，不可以是Action类。( )
+668	一般情况下，一个项目中只需要一个SessionFactory。( )
+669	@Autowire注解默认按照名称进行装配。( )
+670	多对多关系中，双方模型中添加对应模型的集合。( )
+671	级联添加是添加当前对象的同时，将被关联对象也进行添加。( )
+672	当事务中的所有操作都正常完成时，整个事务才能被提交到数据库中，如果有一项操作没有完成，则整个事务会被回滚。( )
+673	HQL仅用于查询和删除数据，不支持insert，update语句。( )
+674	QBC查询通过面向对象化的设计将数据查询条件封装成一个对象。( )
+675	事务的隔离性是指不同的事务之间互不干扰。( )
+676	构造器实例化是指Spring容器通过Bean对应的类中默认的构造函数来实例化Bean。( )
+677	查询部分记录可使用动态实例查询方式。( )
+678	可以使用ActionContext.getContext().put方法把一个对象放入到map中。( )
+679	构造器实例化需要提供对应类的默认构造函数来实例化Bean。( )
+680	Struts2安装完成后lib目录存放着Struts2的核心类库，以及Struts2的第三方插件类库。( )
+681	Hibernate版本下载并解压完的目录中，documentation文件夹用于存放Hibernate的相关文档，包括参考文档的API文档。( )
+682	Struts2.3.24版本的核心过滤器类是StrutsPrepareAndExecuteFilter。( )
+683	ehcache.xml是设置二级缓存的相关参数。( )
+684	Action是线程安全的。( )
+685	使用Struts2数据标签中的<s:debug>标签后，网页中会生成一个[Debug]的链接。( )
+686	Hibernate是一种数据持久化技术。( )
+687	OGNL的全称是对象图导航语言（Object-Graph Navigation Language）。( )
+688	在Hibernate的核心API中，Session接口主要用于管理事务。( )
+689	OGNL可以存取任意对象属性。( )
+690	redirect结果类型用来重定向到指定的结果资源，该资源可以是JSP文件，也可以是Action类。( )
+691	实现SessionAware接口可以得到HttpSession实例。( )
+692	fileUpload拦截器实现了文件上传的功能。( )
+693	QBC查询可读性强。( )
+694	在Spring中使用bean元素的scope属性定义Bean的作用域。( )
+695	hibernate事务隔离级别设置为2，表示读操作未提交。( )
+696	AOP手动使用代理模式有两个典型的例子，分别为JDK动态代理和CGLIB代理。( )
+697	集合缓存要依赖于类级别的缓存，因为这里存放的是OID。( )
+698	全局事务是由服务器进行管理的事务。( )
+699	hibernate的二级缓存中类级别的缓存存放的是对象的实体。( )
+700	@Controller通常标注在业务层。( )
+701	为Bean的属性注入引用类型的对象必须使用property元素的value属性完成。( )
+702	<s:hidden>标签用于创建隐藏表单元素。( )
+703	访问每个Action默认都会执行defaultStack中所有拦截器。( )
+704	update操作用于将脱管态对象转化为持久态对象。( )
+705	hibernate-distribution-3.6.10.Final-dist.tar.gz是Windows下的版本。( )
+706	根对象（Root）可以理解为OGNL的操作对象。( )
+707	将Hibernate交给Spring管理，将所有的Hibernate配置文件全部写到Spring配置文件中。( )
+708	使用Struts2的Web项目通常都需要利用到Struts2的全部JAR包。( )
+709	一对多关系中，可以只配置一方对多方的关系，而不配置多方对一方的关系。( )
+710	<s;password/>默认情况可以显示密码信息。( )
+711	导航对象图检索方式是根据已经加载的对象，导航到其他对象。( )
+712	在Hibernate的核心API中，Query代表面向对象的一个Hibernate查询操作。( )
+713	使用prototype定义的bean在Spring容器中将只有一个实例。( )
+714	valueStack.push(obj) 将指定的对象压入到栈顶。( )
+715	文件上传form表单enctype属性值采用默认即可。( )
+716	SessionFactory是重量级的对象，不应该随意创建。如果系统中只有一个数据库存储源，只需要创建一个。( )
+717	基于XML的声明式AspectJ，所有的切面和通知都必须定义在<aop:config>元素内。( )
+718	Spring就是一个大工厂，可以将所有对象创建和依赖关系维护，交给Spring管理。( )
+719	Hibernate映射中类中的属性必须与表中的字段一一对应，全部映射。( )
+720	多对多不能在映射文件中同时设置inverse=”true”。( )
+721	<s:if>标签可以单独使用，而<s:elseif>、<s:else>都必须与<s:if>标签结合使用。( )
+722	struts2的拦截器只能在struts.txt配置文件中注册。( )
+723	访问Context中的对象使用“#”获取。( )
+724	使用Hibernate框架是为Java应用提供了一个易用的、高效率的表现层框架。( )
+725	在多个事务同时使用相同的数据时，可能会发生并发的问题。( )
+726	一对多关系中，多方模型中添加一方模型的对象。( )
+727	<s:checkbox>标签的value属性值是一个“假值”，用来表示复选框是否被选中。( )
+728	struts2的拦截器可以继承AbstractInterceptor类。( )
+729	redirectAction，将请求重定向到另一个action。( )
+730	注解的方式不能整合三大框架。( )
+731	属性驱动要求Action必须继承ActionSupport类。( )
+732	在Struts2 内置的主题中，simple为默认主题。( )
+733	list()方法返回结果为List对象，数据总量为0到多条。( )
+734	在struts.xml文件中，package元素用于定义包配置。( )
+735	清楚一级缓存指定的数据可以使用clear()方法。( )
+736	在Spring容器中，通过lazy-init属性设置Bean延迟加载，对多实例的情况同样有效。( )
+737	Spring是一个轻量级的开源框架。( )
+738	快照是二级缓存中的特殊区域。( )
+739	hibernate的QBC分页查询中的setMaxResults表示检索的总记录数。( )
+740	Hibernate的事务默认是开启的。( )
+741	在action必须提供3个属性才能完成整个上传过程。( )
+742	Struts2的所有表单标签对应的类都继承自UIBean类。( )
+743	如果需要开发自己的拦截器类，就需要直接或间接的实现Interceptor接口。( )
